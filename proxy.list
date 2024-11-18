@@ -4,7 +4,6 @@
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,Claude
-DOMAIN-KEYWORD,1e100
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,yandex.com
