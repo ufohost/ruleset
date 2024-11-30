@@ -1,0 +1,359 @@
+proxies:
+  - name: 🇺🇸_US_美国
+    port: 8880
+    server: 104.21.238.169
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: m1.106778.xyz
+    cipher: auto
+    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+    port: 2086
+    server: 104.18.114.224
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+    port: 2086
+    server: 104.18.114.182
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+    port: 2082
+    server: 104.21.238.3
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: e4.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+    port: 2086
+    server: 104.26.0.39
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+    port: 2086
+    server: 104.21.238.89
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+    port: 2086
+    server: 104.21.238.74
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
+    port: 2086
+    server: 104.26.0.200
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+    port: 2082
+    server: 104.21.238.135
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: e4.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+    port: 2095
+    server: 104.21.238.91
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: c3.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+    port: 2086
+    server: 104.26.0.46
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
+    port: 2086
+    server: 104.21.238.79
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
+    port: 2095
+    server: 104.18.114.47
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: c3.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
+    port: 2086
+    server: 104.21.238.50
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
+    port: 2086
+    server: 104.21.238.75
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
+    port: 2086
+    server: 104.18.114.21
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+    port: 2082
+    server: 104.26.0.148
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: e4.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
+    port: 2086
+    server: 104.26.0.177
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
+    port: 2095
+    server: 162.159.45.247
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: c3.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
+    port: 2086
+    server: 162.159.45.28
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+    port: 2086
+    server: 104.21.238.160
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_21
+    port: 2086
+    server: 104.26.0.32
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇳🇱_NL_荷兰
+    port: 8080
+    server: 193.29.139.251
+    type: ss
+    udp: true
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_22
+    port: 2086
+    server: 104.21.238.247
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_23
+    port: 2086
+    server: 104.18.114.66
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_24
+    port: 2086
+    server: 104.26.0.231
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: p1.613055.xyz
+    cipher: auto
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_25
+    port: 2095
+    server: 104.21.238.55
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: c3.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_26
+    port: 2082
+    server: 162.159.45.102
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: e4.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
