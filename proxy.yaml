@@ -1,29 +1,41 @@
 proxies:
-  - name: 🇬🇧_GB_英国
-    port: 22222
-    server: 51.21.100.251
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    alpn:
-      - http/1.1
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - name: 🇺🇸_US_美国_1
     port: 80
-    server: 151.101.64.155
+    server: 151.101.66.228
     type: vless
     network: ws
     udp: true
-    servername: 5776.ir
     ws-opts:
-      path: /VLESS?ed=80
       headers:
-        host: 5776.ir
-    uuid: 0cda2421-8ea5-46e6-98ce-f2bdc057f532
-  - name: 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_1
+        host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v10.TzZLiMitTNeWz.NeT
+    uuid: 5e1ccc49-5a88-46ad-88d9-ccff2bf0abd5
+  - name: 🇺🇸_US_美国_2
+    port: 8090
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_3
+    port: 8888
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_4
+    port: 80
+    server: 151.101.194.228
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v10.TzZLiMitTNeWz.NeT
+    uuid: 5e1ccc49-5a88-46ad-88d9-ccff2bf0abd5
+  - name: 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大
     port: 2082
-    server: 190.93.247.203
+    server: 185.18.250.112
     type: vmess
     network: ws
     udp: true
@@ -36,9 +48,9 @@ proxies:
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
-  - name: 🇨🇷_CR_哥斯达黎加
+  - name: 🇫🇷_FR_法国
     port: 2082
-    server: 190.93.247.221
+    server: 146.19.21.61
     type: vmess
     network: ws
     udp: true
@@ -51,9 +63,145 @@ proxies:
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - name: 🇺🇸_US_美国_5
+    port: 7002
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_6
+    port: 5500
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_7
+    port: 8881
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国->🇫🇷_FR_法国
+    port: 80
+    server: 151.101.2.133
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: /aries?ed=2048
+      headers:
+        host: kim.gov.kp
+    cipher: auto
+    uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
+    port: 443
+    server: 159.223.221.245
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN?ed=443
+    uuid: 9e701b20-7257-440e-b1ca-efe74f1652b0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
     port: 2082
-    server: 159.112.235.35
+    server: 190.93.244.33
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇺🇸_US_美国_8
+    port: 7307
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_9
+    port: 80
+    server: 151.101.194.219
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: "@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/\
+        @XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam\
+        ?ed=2048"
+      headers:
+        host: XpnTeam.ir
+    uuid: 743be883-3d10-4f41-af55-14ad4973feeb
+  - name: 🇺🇸_US_美国_10
+    port: 5601
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    port: 443
+    server: series-a2.varzesh360.co
+    type: ss
+    udp: true
+    password: mps3FwmDjLrWaOVg
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_11
+    port: 6679
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大
+    port: 2082
+    server: 45.80.111.9
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇷🇺_RU_俄罗斯
+    port: 38753
+    server: 213.108.22.109
+    type: ss
+    udp: true
+    password: 6OAGLD+DOA6UcFp5Udf0r/UzyjwHV+yheNkoFDk6uL8=
+    cipher: chacha20-ietf-poly1305
+  - name: 🇱🇺_LU_卢森堡->🇨🇦_CA_加拿大
+    port: 2082
+    server: 188.42.89.14
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
+    port: 2082
+    server: 185.148.105.154
     type: vmess
     network: ws
     udp: true
@@ -64,21 +212,8 @@ proxies:
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
-  - name: 🇺🇸_US_美国_1
+  - name: 🇺🇸_US_美国_12
     port: 8880
-    server: 104.21.238.97
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: m1.106778.xyz
-    cipher: auto
-    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-    alterId: 0
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-    port: 2082
     server: 104.18.114.56
     type: vmess
     network: ws
@@ -88,9 +223,9 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        host: e4.6929198.xyz
+        host: m1.106778.xyz
     cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
     alterId: 0
   - name: 🇳🇱_NL_荷兰
     port: 2082
@@ -105,199 +240,51 @@ proxies:
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-    port: 2082
-    server: 190.93.245.168
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇺🇸_US_美国_2
-    port: 8880
-    server: 104.18.114.56
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: m1.106778.xyz
-    cipher: auto
-    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-    alterId: 0
-  - name: 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_2
-    port: 2082
-    server: 190.93.246.120
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
-    port: 2082
-    server: 195.85.59.158
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
-    port: 8080
-    server: 190.93.247.56
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech?ed=2560
-      headers:
-        host: astech.ir.www.speedtest.net.www.zula.ir.cloudflare.com.hostirann.xYz.
-    uuid: edafc8cb-f3e3-434d-8310-481c931d2334
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-    port: 2082
-    server: 190.93.245.76
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇷🇺_RU_俄罗斯
-    port: 32233
-    server: 185.22.152.125
+  - name: 🇺🇸_US_美国_13
+    port: 3389
+    server: 38.75.136.21
     type: ss
     udp: true
-    password: dongtaiwang.com
+    password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+  - name: 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
     port: 2082
-    server: 104.26.0.206
+    server: 185.193.31.108
     type: vmess
     network: ws
     udp: true
     sni: ""
     skip-cert-verify: true
     ws-opts:
-      path: github.com/Alvin9999
+      path: /github.com/Alvin9999
       headers:
-        host: e4.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇺🇸_US_美国_3
-    port: 2082
-    server: 104.21.238.79
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: e4.6929198.xyz
+        host: ip18.6929198.xyz
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
   - name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
-    port: 8080
-    server: 104.18.165.147
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
-      headers:
-        host: JOiNMAiN.MRaLPHa-Vpn.CoM.
-    uuid: c9632b9c-8177-4aca-b569-e274405ba041
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-    port: 2082
-    server: 170.114.46.219
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇺🇸_US_美国->🇺🇦_UA_乌克兰
     port: 80
-    server: 151.101.128.155
+    server: 151.101.64.155
     type: vless
     network: ws
     udp: true
+    servername: loceryl.com
     ws-opts:
-      path: "@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@Un\
-        limitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@Unlim\
-        itedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480"
+      path: /lW0tvTq4oSbHyKeRM?ed=2560
       headers:
-        host: UNLIMITEDDEV.channel-telegram-1.ir
-    uuid: 3d0fdf8b-023c-46b2-92ef-ab117668d1c6
-    client-fingerprint: chrome
-  - name: 🇱🇺_LU_卢森堡->🇨🇦_CA_加拿大
+        host: Configt-Channel.Dev
+    uuid: 3d5115e5-61c5-4a15-a616-6f2734914797
+    client-fingerprint: firefox
+  - name: 🇺🇸_US_美国_14
+    port: 443
+    server: 54.200.220.184
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
     port: 2082
-    server: 188.42.88.198
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇺🇸_US_美国_4
-    port: 80
-    server: 151.101.130.219
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: "@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/\
-        @XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam\
-        ?ed=2048"
-      headers:
-        host: XpnTeam.ir
-    uuid: bc65abda-c6a2-4fbe-b368-c741906a381f
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    port: 58831
-    server: 183.236.48.163
-    type: vmess
-    network: tcp
-    udp: true
-    cipher: auto
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
-    port: 2082
-    server: 190.93.245.103
+    server: 31.43.179.32
     type: vmess
     network: ws
     udp: true
@@ -310,100 +297,26 @@ proxies:
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国_3
-    port: 8080
-    server: 172.67.199.143
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
-      headers:
-        host: shOp.GkalAbar.Ir.
-    uuid: 3a79c97d-4203-4be4-86c9-4eafa52005b2
-  - name: 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_3
-    port: 2082
-    server: 190.93.246.178
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 未知
-    port: 13020
-    server: naiu-us.05vr9nyqg5.download
-    type: trojan
-    udp: true
-    sni: cloudflare.node-ssl.cdn-alibaba.com
-    password: 5e2ce79c-170e-484a-8802-40584a1a3a12
-    skip-cert-verify: false
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
-    port: 2082
-    server: 190.93.245.174
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇺🇸_US_美国_5
-    port: 2095
-    server: 104.26.0.35
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: c3.6016725.xyz
-    cipher: auto
-    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-    alterId: 0
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国_4
-    port: 8080
-    server: 104.18.165.78
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
-      headers:
-        host: JOiNMAiN.MRaLPHa-Vpn.CoM.
-    uuid: c9632b9c-8177-4aca-b569-e274405ba041
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
-    port: 2082
-    server: 168.100.6.46
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇺🇸_US_美国_6
+  - name: 🇺🇸_US_美国_15
     port: 80
-    server: 199.232.79.51
+    server: vmessorg.fastly80-3.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    servername: TEL.VMESSORG.http.www.speedtest.net.fast.com.vmessorgg.ir
+    ws-opts:
+      path: /@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480
+      headers:
+        host: TEL.VMESSORG.http.www.speedtest.net.fast.com.vmessorgg.ir
+    uuid: 27bbb35d-017e-44b9-896c-6e210ab88418
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
+    port: 8880
+    server: 104.17.148.22
     type: vless
     network: ws
     udp: true
     ws-opts:
-      path: /
+      path: /melo/
       headers:
-        host: ELiV2-0.COM
-    uuid: 8cecedef-f088-5419-913d-c4c8b24c651d
+        host: ch.我的名字伊斯梅洛.site.
+    uuid: edccdb86-d9d8-4651-b764-c8f9ecccc835
