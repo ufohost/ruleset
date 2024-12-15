@@ -1,98 +1,49 @@
 proxies:
   - name: 🇺🇸_US_美国_1
-    port: 8080
-    server: 104.17.147.22
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
-      headers:
-        host: WSESmainV.nigh8movie.COM.
-    uuid: b8365b3d-f55f-4cde-8600-937f4acbbb58
-  - name: 🇺🇸_US_美国_2
-    port: 443
-    server: 35.91.173.159
+    port: 32091
+    server: 51.120.1.158
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇷🇴_RO_罗马尼亚
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇩🇪_DE_德国
-    port: 8080
-    server: 193.108.119.230
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇳🇱_NL_荷兰_1
-    port: 443
-    server: loving-boa.treefrog761.one
-    type: trojan
-    udp: true
-    sni: loving-boa.treefrog761.one
-    password: "3648425794742788096"
-    skip-cert-verify: false
-  - name: 🇺🇸_US_美国_3
-    port: 80
-    server: 151.101.2.219
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /olem/ws?ed=1024
-      headers:
-        host: foffmelo.com
-    uuid: c7953896-7bb2-4ce2-c7ca-117b2678b47f
-  - name: 🇳🇱_NL_荷兰_2
-    port: 443
-    server: prime-gator.treefrog761.one
-    type: trojan
-    udp: true
-    sni: prime-gator.treefrog761.one
-    password: "3648425794742788096"
-    skip-cert-verify: false
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
-    port: 80
-    server: 151.101.64.155
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=1024
-      headers:
-        host: vipfast_7.com
-    uuid: b99551cb-2d56-404c-aaf2-bcd1faf8bd36
+    password: xjzsiMfTByKjA9URbdXWNp
+    cipher: chacha20-ietf-poly1305
   - name: 🇷🇺_RU_俄罗斯_1
-    port: 9011
+    port: 9042
     server: 217.30.10.18
     type: ss
     udp: true
-    password: M3t2ZEQcMGRWBjRa
+    password: S7KwUu7yBy58S3Ga
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  - name: 🇺🇸_US_美国_2
     port: 8080
-    server: 104.17.148.22
+    server: 79.110.53.169
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9024
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: BejrQvtu9sqUeNuZ
+    cipher: aes-256-cfb
+  - name: 🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯
+    port: 80
+    server: 146.75.52.204
     type: vless
     network: ws
     udp: true
     ws-opts:
-      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
+      path: /JOiN,@ELiV2RAY-JOiN,@ELiV2RAY-JOiN,@ELiV2RAY-JOiN,@ELiV2RAY?ed=2560
       headers:
-        host: WSESmainV.nigh8movie.COM.
-    uuid: b8365b3d-f55f-4cde-8600-937f4acbbb58
-  - name: 🇺🇸_US_美国_4
-    port: 443
-    server: 52.89.164.115
+        host: JOiN--E-L-i-V-2-R-A-Y.net
+    uuid: 4d6ffdeb-abc5-5658-a1f3-979681b710f2
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9079
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: amazonskr05
+    password: TPqX8edgbAURcAMb
     cipher: aes-256-cfb
   - name: 🇮🇳_IN_印度->🇺🇸_US_美国
     port: 80
@@ -107,87 +58,141 @@ proxies:
         host: fatmelo.com
     uuid: 82fc176f-7cc7-40a1-e1ec-af2298e23eab
     client-fingerprint: chrome
-  - name: 🇺🇸_US_美国_5
+  - name: 🇩🇪_DE_德国_1
+    port: 8080
+    server: 45.87.175.199
+    type: ss
+    udp: true
+    password: QCXDxuDlTTMD7jtgHUjIoj
+    cipher: chacha20-ietf-poly1305
+  - name: 🇸🇬_SG_新加坡
+    port: 443
+    server: 18.141.187.153
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇮🇷_IR_伊朗
     port: 80
-    server: 151.101.194.219
+    server: 199.232.192.204
     type: vless
     network: ws
     udp: true
     ws-opts:
-      path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
+      path: /Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-?ed=2560
       headers:
-        host: XpnTeam.ir
-    uuid: 4de0d632-c6c5-4284-ad93-7024fce7fd4c
-  - name: 🇬🇧_GB_英国
-    port: 22222
-    server: 51.20.156.186
-    type: trojan
-    network: tcp
+        host: JOiN--E-L-i-V-2-R-A-Y.net
+    uuid: 913cdacd-2501-531a-8390-d2fcda924944
+  - name: 🇺🇸_US_美国_3
+    port: 443
+    server: 52.89.164.115
+    type: ss
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    alpn:
-      - http/1.1
-  - name: 🇷🇺_RU_俄罗斯_2
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
+    port: 80
+    server: 151.101.130.133
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /olem/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn-d=2048
+      headers:
+        host: fatmelo.com
+    uuid: 82fc176f-7cc7-40a1-e1ec-af2298e23eab
+  - name: 🇱🇻_LV_拉脱维亚
+    port: 990
+    server: 46.183.217.232
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_4
+    port: 8080
+    server: 104.17.147.22
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
+      headers:
+        host: viso.mainSHop3.US.KG.
+    uuid: 46c4b5bb-2f5a-4c63-bd96-ef7fafbf26f3
+  - name: 🇬🇧_GB_英国
+    port: 989
+    server: 51.15.15.82
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_2
+    port: 80
+    server: 151.101.1.46
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /
+      headers:
+        host: vpngaming.ir
+    uuid: 813e1424-c68d-4e96-ac5f-e7b6dfe79605
+  - name: 🇺🇸_US_美国->🇫🇮_FI_芬兰
+    port: 80
+    server: speedtest.net
+    type: vless
+    network: ws
+    udp: true
+    servername: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+    ws-opts:
+      path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+      headers:
+        host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+    uuid: 8e4cc007-f3fb-4804-8c98-774ac4397a9a
+  - name: 🇷🇺_RU_俄罗斯_4
+    port: 9019
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: GA9KzeEgvfxNrgmM
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
+    port: 80
+    server: 151.101.64.155
+    type: vless
+    network: ws
+    udp: true
+    servername: iranvpn.com.
+    ws-opts:
+      path: /?ed=1024
+      headers:
+        host: iranvpn.com.
+    uuid: 64ccb313-d2bd-4b44-a6fd-522a14c819fd
+  - name: 🇷🇺_RU_俄罗斯_5
     port: 9010
     server: 217.30.10.18
     type: ss
     udp: true
     password: f63gg8EruDnUrmz4
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_6
-    port: 443
-    server: 18.237.72.225
+  - name: 🇷🇺_RU_俄罗斯_6
+    port: 9033
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: amazonskr05
+    password: UTJA57ypk2XKQpnm
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_7
-    port: 8080
-    server: 23.251.121.242
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+    port: 17008
+    server: 113.99.142.152
     type: ss
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_8
+    password: P4RAHM7S01HTCHPW
+    cipher: aes-256-gcm
+  - name: 🇩🇪_DE_德国_2
     port: 8080
-    server: 104.19.54.231
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: "@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmess\
-        org----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg---\
-        -@vmessorg?ed=8080"
-      headers:
-        host: joinbedevmessorg.xn--54qv00ez5ar77g.co.
-    uuid: 1f2f0b4c-e5f2-4122-8f91-9ec61792098f
-  - name: 🇺🇸_US_美国_9
-    port: 80
-    server: 151.101.66.219
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /olem/ws?ed=1024
-      headers:
-        host: foffmelo.com
-    uuid: c7953896-7bb2-4ce2-c7ca-117b2678b47f
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
-    port: 80
-    server: 151.101.128.155
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=1024
-      headers:
-        host: vipfast_7.com
-    uuid: b99551cb-2d56-404c-aaf2-bcd1faf8bd36
-  - name: 🇺🇸_US_美国_10
-    port: 8080
-    server: 169.150.210.233
+    server: beesyar.org
     type: ss
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
+    password: 4a2rfixophdjffa8KVA4Aa
+    cipher: chacha20-ietf-poly1305
