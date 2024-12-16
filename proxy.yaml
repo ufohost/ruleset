@@ -1,49 +1,141 @@
 proxies:
   - name: 🇺🇸_US_美国_1
-    port: 32091
-    server: 51.120.1.158
-    type: ss
-    udp: true
-    password: xjzsiMfTByKjA9URbdXWNp
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 9042
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: S7KwUu7yBy58S3Ga
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_2
-    port: 8080
-    server: 79.110.53.169
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9024
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: BejrQvtu9sqUeNuZ
-    cipher: aes-256-cfb
-  - name: 🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯
     port: 80
-    server: 146.75.52.204
+    server: 172.64.35.129
     type: vless
     network: ws
     udp: true
     ws-opts:
-      path: /JOiN,@ELiV2RAY-JOiN,@ELiV2RAY-JOiN,@ELiV2RAY-JOiN,@ELiV2RAY?ed=2560
+      path: /b5cdabf0-e04
       headers:
-        host: JOiN--E-L-i-V-2-R-A-Y.net
-    uuid: 4d6ffdeb-abc5-5658-a1f3-979681b710f2
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 9079
-    server: 217.30.10.18
+        host: cc.ailicf.us.kg
+    uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  - name: 🇺🇸_US_美国_2
+    port: 443
+    server: 54.191.252.235
     type: ss
     udp: true
-    password: TPqX8edgbAURcAMb
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇫🇮_FI_芬兰_1
+    port: 80
+    server: speedtest.net
+    type: vless
+    network: ws
+    udp: true
+    servername: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+    ws-opts:
+      path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+      headers:
+        host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+    uuid: bbcc6a4f-de43-4599-b48f-42a8cf994324
+  - name: 🇺🇸_US_美国_3
+    port: 8080
+    server: 104.18.165.147
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
+      headers:
+        host: Mainکانفیگ-رایگان-V2-rAy.mAShti.us.KG.
+    uuid: dbeb02e1-81be-4184-8af6-27306e9df3fe
+  - name: 🇺🇸_US_美国_4
+    port: 80
+    server: 151.101.2.228
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v28.drlimit.net
+    uuid: 99ece951-d623-4fcd-adac-021b97d0f887
+  - name: 🇧🇭_BH_巴林
+    port: 443
+    server: series-a2-me.varzesh360.co
+    type: ss
+    udp: true
+    password: Bog0ELmMM9DSxDdQ
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇫🇮_FI_芬兰_2
+    port: 80
+    server: 151.101.66.219
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+      headers:
+        host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+    uuid: bbcc6a4f-de43-4599-b48f-42a8cf994324
+  - name: 🇱🇻_LV_拉脱维亚
+    port: 990
+    server: 46.183.217.232
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_5
+    port: 8080
+    server: 104.18.165.78
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
+      headers:
+        host: Mainکانفیگ-رایگان-V2-rAy.mAShti.us.KG.
+    uuid: dbeb02e1-81be-4184-8af6-27306e9df3fe
+  - name: 🇺🇸_US_美国_6
+    port: 80
+    server: 151.101.66.228
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v29.drlimit.net
+    uuid: 99ece951-d623-4fcd-adac-021b97d0f887
+  - name: 🇺🇸_US_美国_7
+    port: 8080
+    server: 104.18.165.203
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
+      headers:
+        host: Mainکانفیگ-رایگان-V2-rAy.mAShti.us.KG.
+    uuid: dbeb02e1-81be-4184-8af6-27306e9df3fe
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
+    port: 80
+    server: 151.101.0.155
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
+      headers:
+        host: 6.fidsxss6x.iR
+    uuid: 9a6d81c6-1f02-4928-ab1b-7bbf19a5ae75
+  - name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
+    port: 80
+    server: ISVvpn.fastly80-2.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    servername: 5774.ir
+    ws-opts:
+      path: /VLESS?ed=80
+      headers:
+        host: 5774.ir
+    uuid: d74acf2c-2148-4343-891c-627c4b5d690b
+  - name: 🇺🇸_US_美国_8
+    port: 443
+    server: 54.201.174.149
+    type: ss
+    udp: true
+    password: amazonskr05
     cipher: aes-256-cfb
   - name: 🇮🇳_IN_印度->🇺🇸_US_美国
     port: 80
@@ -58,105 +150,25 @@ proxies:
         host: fatmelo.com
     uuid: 82fc176f-7cc7-40a1-e1ec-af2298e23eab
     client-fingerprint: chrome
-  - name: 🇩🇪_DE_德国_1
-    port: 8080
-    server: 45.87.175.199
-    type: ss
-    udp: true
-    password: QCXDxuDlTTMD7jtgHUjIoj
-    cipher: chacha20-ietf-poly1305
-  - name: 🇸🇬_SG_新加坡
+  - name: 🇺🇸_US_美国_9
     port: 443
-    server: 18.141.187.153
+    server: 54.200.220.184
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇮🇷_IR_伊朗
-    port: 80
-    server: 199.232.192.204
+  - name: 🇸🇪_SE_瑞典->🇸🇬_SG_新加坡
+    port: 2095
+    server: 185.146.173.39
     type: vless
     network: ws
     udp: true
     ws-opts:
-      path: /Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-?ed=2560
+      path: /?ed=2560
       headers:
-        host: JOiN--E-L-i-V-2-R-A-Y.net
-    uuid: 913cdacd-2501-531a-8390-d2fcda924944
-  - name: 🇺🇸_US_美国_3
-    port: 443
-    server: 52.89.164.115
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
-    port: 80
-    server: 151.101.130.133
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /olem/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn-d=2048
-      headers:
-        host: fatmelo.com
-    uuid: 82fc176f-7cc7-40a1-e1ec-af2298e23eab
-  - name: 🇱🇻_LV_拉脱维亚
-    port: 990
-    server: 46.183.217.232
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_4
-    port: 8080
-    server: 104.17.147.22
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
-      headers:
-        host: viso.mainSHop3.US.KG.
-    uuid: 46c4b5bb-2f5a-4c63-bd96-ef7fafbf26f3
-  - name: 🇬🇧_GB_英国
-    port: 989
-    server: 51.15.15.82
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_2
-    port: 80
-    server: 151.101.1.46
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: vpngaming.ir
-    uuid: 813e1424-c68d-4e96-ac5f-e7b6dfe79605
-  - name: 🇺🇸_US_美国->🇫🇮_FI_芬兰
-    port: 80
-    server: speedtest.net
-    type: vless
-    network: ws
-    udp: true
-    servername: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-    ws-opts:
-      path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
-      headers:
-        host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-    uuid: 8e4cc007-f3fb-4804-8c98-774ac4397a9a
-  - name: 🇷🇺_RU_俄罗斯_4
-    port: 9019
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: GA9KzeEgvfxNrgmM
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
+        host: sadasdsdsaads阿斯達十點三十分.boxiaa.shop.
+    uuid: 458a515d-2d52-4efe-b95b-e0e34814213f
+  - name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
     port: 80
     server: 151.101.64.155
     type: vless
@@ -168,31 +180,17 @@ proxies:
       headers:
         host: iranvpn.com.
     uuid: 64ccb313-d2bd-4b44-a6fd-522a14c819fd
-  - name: 🇷🇺_RU_俄罗斯_5
-    port: 9010
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: f63gg8EruDnUrmz4
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_6
-    port: 9033
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: UTJA57ypk2XKQpnm
-    cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    port: 17008
-    server: 113.99.142.152
-    type: ss
-    udp: true
-    password: P4RAHM7S01HTCHPW
-    cipher: aes-256-gcm
-  - name: 🇩🇪_DE_德国_2
+  - name: 🇺🇸_US_美国_10
     port: 8080
-    server: beesyar.org
+    server: 79.110.53.169
     type: ss
     udp: true
-    password: 4a2rfixophdjffa8KVA4Aa
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    port: 443
+    server: series-a1.samanehha.co
+    type: ss
+    udp: true
+    password: W74XFALLLuw6m5IA
     cipher: chacha20-ietf-poly1305
