@@ -1,127 +1,126 @@
 proxies:
-  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国_1
-    port: 1576
-    server: 123.125.94.170
-    type: trojan
-    udp: true
-    sni: egsource1.mzsourcenode.info
-    password: d4f89111885.wns.windows.com
-    skip-cert-verify: true
   - name: 🇺🇸_US_美国_1
     port: 443
-    server: 52.89.164.115
+    server: 54.70.176.73
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-    port: 1626
-    server: 123.125.94.170
-    type: trojan
-    udp: true
-    sni: desource1.mzsourcenode.info
-    password: d4f89111885.wns.windows.com
-    skip-cert-verify: true
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 9093
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: wfLC2y7rzZyCmuyt
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国
-    port: 989
-    server: 77.72.5.150
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国->🇩🇪_DE_德国
-    port: 443
-    server: series-a2.varzesh360.co
-    type: ss
-    udp: true
-    password: mps3FwmDjLrWaOVg
-    cipher: chacha20-ietf-poly1305
-  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国_2
-    port: 1356
-    server: 123.125.94.170
-    type: trojan
-    udp: true
-    sni: uksource1.mzsourcenode.info
-    password: d4f89111885.wns.windows.com
-    skip-cert-verify: true
   - name: 🇺🇸_US_美国_2
-    port: 8080
-    server: 79.110.53.169
+    port: 32091
+    server: 51.120.1.158
     type: ss
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇧🇬_BG_保加利亚->🇺🇸_US_美国
+    password: xjzsiMfTByKjA9URbdXWNp
+    cipher: chacha20-ietf-poly1305
+  - name: 🇧🇬_BG_保加利亚->🇦🇺_AU_澳大利亚
     port: 443
-    server: 149.34.244.82
+    server: 149.34.244.77
     type: ss
     udp: true
     password: shadowsocks
     cipher: aes-128-gcm
-  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国_3
-    port: 1357
-    server: 123.125.94.170
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+    port: 80
+    server: 199.232.196.204
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-?ed=2560
+      headers:
+        host: JOiN--E-L-i-V-2-R-A-Y.net
+    uuid: 913cdacd-2501-531a-8390-d2fcda924944
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 9041
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: U6qnYRhfyDmn8sgn
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9031
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: BwcAUZk8hUFAkDGN
+    cipher: aes-256-cfb
+  - name: 🇦🇷_AR_阿根廷
+    port: 989
+    server: 170.80.111.5
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9027
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: EXN3S3eQpjE7EJu8
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_3
+    port: 22222
+    server: 18.170.89.224
     type: trojan
     network: tcp
     udp: true
-    sni: uksource1.mzsourcenode.info
-    password: d4f89111885.wns.windows.com
-    skip-cert-verify: true
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9026
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: QWDDvVE9npNurQfA
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 9010
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: f63gg8EruDnUrmz4
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_3
-    port: 5500
-    server: 38.114.114.77
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    alpn:
+      - http/1.1
+  - name: 🇺🇸_US_美国_4
     port: 443
-    server: 34.222.136.128
+    server: 54.201.174.149
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇧🇪_BE_比利时
-    port: 989
-    server: 192.71.249.78
+  - name: 🇺🇸_US_美国_5
+    port: 80
+    server: 151.101.66.228
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v20.drlimit.net
+    uuid: 6d47d0cf-4ef8-4101-a3b9-9126b6875dc0
+  - name: 🇺🇸_US_美国->🇪🇸_ES_西班牙
+    port: 80
+    server: 151.101.130.219
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: ELiV2--ELENA.COM
+    uuid: 8f6f8193-0f0b-5933-9346-718542befff9
+  - name: 🇱🇻_LV_拉脱维亚
+    port: 990
+    server: 46.183.217.232
     type: ss
     udp: true
     password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_4
-    port: 443
-    server: sherasheba.com
-    type: trojan
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_6
+    port: 80
+    server: 65.109.217.75
+    type: vless
+    network: ws
     udp: true
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  - name: 🇸🇪_SE_瑞典->🇺🇸_US_美国
-    port: 989
-    server: 194.71.126.31
-    type: ss
+    ws-opts:
+      path: /@Vmesskhodam/@Vmesskhodam/@Vmesskhodam/@Vmesskhodam/@Vmesskhodam/@Vmesskhodam/@Vmesskhodam/@Vmesskhodam/@Vmesskhodam?ed=2048
+    uuid: 75fb9cc3-c304-4f5c-8435-c0d940a31341
+  - name: 🇮🇳_IN_印度_1
+    port: 80
+    server: 103.71.22.43
+    type: vless
+    network: ws
     udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
+    ws-opts:
+      path: /@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1,@VPNMEGA1
+    uuid: dc475b28-cd4d-4135-8889-f0b5a2285df8
   - name: 🇷🇺_RU_俄罗斯_4
     port: 9014
     server: 217.30.10.18
@@ -129,68 +128,108 @@ proxies:
     udp: true
     password: KnJGad3FqTvjqbaX
     cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-    port: 1630
-    server: 123.125.94.170
-    type: trojan
-    udp: true
-    sni: desource1.game.mzsourcenode.info
-    password: d4f89111885.wns.windows.com
-    skip-cert-verify: true
-  - name: 🇷🇺_RU_俄罗斯_5
-    port: 9079
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: TPqX8edgbAURcAMb
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_6
-    port: 9094
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: rpgbNnU9rDDU4aWZ
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_7
-    port: 9084
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: c3NtHJ5ujV2tGDfj
-    cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_3
-    port: 1606
-    server: 123.125.94.170
-    type: trojan
-    udp: true
-    sni: rusource1.mzsourcenode.info
-    password: d4f89111885.wns.windows.com
-    skip-cert-verify: true
-  - name: 🇺🇸_US_美国_5
+  - name: 🇧🇬_BG_保加利亚->🇺🇸_US_美国
     port: 443
-    server: 142.202.48.220
-    type: trojan
+    server: 149.34.244.82
+    type: ss
     udp: true
-    sni: sherasheba.com
-    password: f0eb8c92ce8946aaba856569cff1a16b
-  - name: 🇷🇺_RU_俄罗斯_8
-    port: 9060
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🇷🇺_RU_俄罗斯_5
+    port: 23456
+    server: 185.22.155.228
+    type: ss
+    udp: true
+    password: dongtaiwang.com
+    cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯_6
+    port: 9045
     server: 217.30.10.18
     type: ss
     udp: true
-    password: ueLXVkvh4hckhErQ
+    password: Lp27rqyJq72bZsqX
     cipher: aes-256-cfb
-  - name: 🇲🇩_MD_摩尔多瓦->🇺🇸_US_美国
-    port: 989
-    server: 178.175.134.2
+  - name: 🇺🇸_US_美国_7
+    port: 443
+    server: 34.222.136.128
     type: ss
     udp: true
-    password: f8f7aCzcPKbsF8p3
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇮🇳_IN_印度_2
+    port: 443
+    server: 103.71.22.43
+    type: ss
+    udp: true
+    password: HUHKMFuZ/EuJfh6E/dg8QnhSj7Nzv7RXeDZUpdUcrlU=
+    cipher: aes-128-gcm
+  - name: 🇷🇺_RU_俄罗斯_7
+    port: 9064
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: cp8pRSUAyLhTfVWH
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_8
+    port: 80
+    server: 151.101.2.228
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v20.drlimit.net
+    uuid: 6d47d0cf-4ef8-4101-a3b9-9126b6875dc0
+  - name: 🇬🇧_GB_英国_1
+    port: 443
+    server: 212.102.53.197
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🇷🇺_RU_俄罗斯_8
+    port: 9024
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: BejrQvtu9sqUeNuZ
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_9
+    port: 443
+    server: 52.89.164.115
+    type: ss
+    udp: true
+    password: amazonskr05
     cipher: aes-256-cfb
   - name: 🇷🇺_RU_俄罗斯_9
-    port: 56285
-    server: 176.124.213.194
-    type: vless
-    network: tcp
+    port: 9026
+    server: 217.30.10.18
+    type: ss
     udp: true
-    uuid: 71b6fa5c-f0ee-4857-9672-5a333723e533
+    password: QWDDvVE9npNurQfA
+    cipher: aes-256-cfb
+  - name: 🇬🇧_GB_英国_2
+    port: 443
+    server: series-a2.varzesh360.co
+    type: ss
+    udp: true
+    password: mps3FwmDjLrWaOVg
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_10
+    port: 80
+    server: 151.101.192.155
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /@Daily_Configs--@Daily_Configs--@Daily_Configs--@Daily_Configs--@Daily_Configs--@Daily_Configs?ed=2056
+      headers:
+        host: joinbedeee-daily-configs.net
+    uuid: 9ec9abe3-8b93-4829-b6ed-d40ceb7db1f5
+  - name: 🇷🇺_RU_俄罗斯_10
+    port: 9006
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: FAdUvMJUq5vDgKEq
+    cipher: aes-256-cfb
