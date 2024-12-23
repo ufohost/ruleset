@@ -1,157 +1,64 @@
 proxies:
-  - name: 未知
-    port: 8080
-    server: 138.199.42.68
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 9026
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国
-    port: 8080
-    server: 107.155.57.11
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国->🇮🇷_IR_伊朗
-    port: 80
-    server: AT3.fast.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    servername: kazemi211zerofun.coM
-    ws-opts:
-      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-      headers:
-        host: kazemi211zerofun.coM
-    uuid: ff45f39c-0055-48c5-962e-c2684e613e75
-  - name: 🇷🇺_RU_俄罗斯
-    port: 23456
-    server: 185.22.155.228
-    type: ss
-    udp: true
-    password: dongtaiwang.com
-    cipher: aes-256-gcm
-  - name: 🇬🇧_GB_英国
-    port: 443
-    server: 212.102.53.193
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
-    port: 80
-    server: 151.101.2.165
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
-      headers:
-        host: WHALEV2R.IR
-    uuid: 9190eda7-b375-4bac-87a1-0dfa5ea34483
+    password: QWDDvVE9npNurQfA
+    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_1
-    port: 5000
-    server: 38.75.136.21
+    port: 8118
+    server: 142.202.49.122
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_2
-    port: 7307
-    server: 38.75.136.21
-    type: ss
+    port: 80
+    server: 151.101.64.223
+    type: vless
+    network: ws
     udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_3
+    ws-opts:
+      headers:
+        host: O-ELi-V2-RAY.COM
+    uuid: 092f6989-74a2-5deb-841c-46622fd8f96d
+  - name: 🇬🇧_GB_英国->🇯🇵_JP_日本
     port: 8080
-    server: 38.75.136.21
+    server: 146.70.61.18
     type: ss
     udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_4
-    port: 443
-    server: series-a2-mec.varzesh360.co
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇷🇴_RO_罗马尼亚->🏳️_unKnow_未知
+    port: 8080
+    server: 194.5.215.59
     type: ss
     udp: true
-    password: u17T3BvpYaaiuW2c
-    cipher: chacha20-ietf-poly1305
-  - name: 🇧🇬_BG_保加利亚
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇧🇬_BG_保加利亚->🇺🇸_US_美国
     port: 443
     server: 149.34.244.82
     type: ss
     udp: true
     password: shadowsocks
     cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_5
-    port: 80
-    server: 151.101.2.228
-    type: vless
-    network: ws
+  - name: 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
+    port: 22222
+    server: 18.133.69.10
+    type: trojan
     udp: true
-    ws-opts:
-      path: /telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2048
-      headers:
-        host: Sarbaz-Watan.Hastam.net
-    uuid: f96b62f5-5f32-45cc-8839-2b3ab7cb6002
-  - name: 🇺🇸_US_美国_6
-    port: 7001
-    server: 38.75.136.21
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9011
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_7
-    port: 3306
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_8
-    port: 443
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: pKEW8JPByTVTLtM
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_9
-    port: 80
-    server: 151.101.0.155
-    type: vless
-    network: ws
-    udp: true
-    servername: live.skornorth.com
-    ws-opts:
-      path: /@custom_config?ed=2048
-      headers:
-        host: leader-of-www.com
-    uuid: 74569ce0-f8d2-4dd4-8081-13cf6ed39ecb
-    client-fingerprint: chrome
-  - name: 🇺🇸_US_美国_10
-    port: 5001
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_11
-    port: 8080
-    server: 79.110.53.169
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_12
-    port: 8080
-    server: 51.158.244.38
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_13
+    password: M3t2ZEQcMGRWBjRa
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_3
     port: 80
     server: 151.101.194.228
     type: vless
@@ -160,48 +67,153 @@ proxies:
     ws-opts:
       headers:
         host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v10.drlimit.net
-    uuid: 475429b6-5012-4ede-9cde-a049d5372f7f
-  - name: 🇺🇸_US_美国_14
-    port: 5004
-    server: 38.75.136.21
+    uuid: 14c3063b-fa54-4404-bd26-678158abfd5f
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9094
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_15
-    port: 80
-    server: 151.101.66.228
-    type: vless
-    network: ws
+    password: rpgbNnU9rDDU4aWZ
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_4
+    port: 22222
+    server: 3.71.244.39
+    type: trojan
     udp: true
-    ws-opts:
-      path: /telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2048
-      headers:
-        host: Sarbaz-Watan.Hastam.net
-    uuid: f96b62f5-5f32-45cc-8839-2b3ab7cb6002
-  - name: 🇺🇸_US_美国_16
-    port: 55305
-    server: 64.227.183.64
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+  - name: 🇷🇺_RU_俄罗斯_4
+    port: 9020
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: 2S39h4RMyPdGcfcltg1rwD
+    password: BNmAXXxAHYpTRdzu
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_5
+    port: 443
+    server: 23.88.54.248
+    type: ss
+    udp: true
+    password: bux48kicKesu2GwIaqNKYmLRQR1DDaalwDxWYKOmeOI=
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
-    port: 80
-    server: NUFiLTER.fastly80-2.hosting-ip.com
+  - name: 🇺🇸_US_美国_6
+    port: 8008
+    server: 142.202.49.122
+    type: ss
+    udp: true
+    password: XKFKl2rULjIp74
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_7
+    port: 5500
+    server: 142.202.49.122
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_8
+    port: 8080
+    server: 104.17.147.22
     type: vless
     network: ws
     udp: true
-    servername: 6.fidsxss11x.ir
     ws-opts:
-      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
+      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
       headers:
-        host: 6.fidsxss11x.ir
-    uuid: 36a9fad9-3b94-4cf1-856d-81b484d91cc5
-  - name: 🇺🇸_US_美国_17
+        host: تماشای-فیلم.filimo.news.
+    uuid: edf2dced-1116-45df-951d-6031c294a340
+  - name: 🇺🇸_US_美国_9
+    port: 8080
+    server: www.speedtest.net
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: /njbvhfgxdgthj
+      headers:
+        host: gi7ip5kbae7a.libreone.com
+    cipher: auto
+    uuid: cc9be09e-c05e-4f54-831b-969ecb185692
+    alterId: 0
+  - name: 🇷🇺_RU_俄罗斯_5
+    port: 9031
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: BwcAUZk8hUFAkDGN
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
+    port: 8080
+    server: 79.110.53.169
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇺🇸_US_美国_10
+    port: 8080
+    server: 169.150.210.233
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇺🇸_US_美国->🇧🇪_BE_比利时
+    port: 80
+    server: 151.101.130.133
+    type: vless
+    network: ws
+    udp: true
+    servername: plex.com
+    ws-opts:
+      path: /vless/
+      headers:
+        host: 7707.dev
+    uuid: 3b1e2c98-6025-41df-b82d-b539757f903f
+    client-fingerprint: chrome
+  - name: 🇺🇸_US_美国_11
+    port: 443
+    server: 38.99.82.225
+    type: trojan
+    udp: true
+    sni: jobsfortheworldtoday.com
+    password: 71409d3e488548e8bb076d229778f008
+  - name: 🇨🇳_CN_中国
+    port: 8080
+    server: 107.155.57.11
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇺🇸_US_美国_12
+    port: 22222
+    server: 3.77.3.183
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇺🇸_US_美国_13
     port: 443
     server: 52.32.68.164
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_14
+    port: 8080
+    server: 51.158.244.38
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇮🇳_IN_印度
+    port: 8080
+    server: 103.71.22.37
+    type: ss
+    udp: true
+    password: GpUH3Cx4i3nSwSa2/E20D7ahRnDPEPD0Rf23yClvgDU=
+    cipher: aes-128-gcm
+  - name: 🇩🇪_DE_德国->🇨🇳_CN_中国
+    port: 8080
+    server: 193.108.119.230
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
