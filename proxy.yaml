@@ -1,21 +1,14 @@
 proxies:
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 9026
-    server: 217.30.10.18
+  - name: 🇬🇧_GB_英国_1
+    port: 8353
+    server: 193.38.136.149
     type: ss
     udp: true
-    password: QWDDvVE9npNurQfA
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_1
-    port: 8118
-    server: 142.202.49.122
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
+    password: 4180441OS33nY3f2WpxyU
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_2
+  - name: 🇺🇸_US_美国_1
     port: 80
-    server: 151.101.64.223
+    server: 151.101.192.223
     type: vless
     network: ws
     udp: true
@@ -23,117 +16,74 @@ proxies:
       headers:
         host: O-ELi-V2-RAY.COM
     uuid: 092f6989-74a2-5deb-841c-46622fd8f96d
-  - name: 🇬🇧_GB_英国->🇯🇵_JP_日本
-    port: 8080
-    server: 146.70.61.18
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇴_RO_罗马尼亚->🏳️_unKnow_未知
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-    port: 443
-    server: 149.34.244.82
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-    port: 22222
-    server: 18.133.69.10
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9011
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 9026
     server: 217.30.10.18
     type: ss
     udp: true
-    password: M3t2ZEQcMGRWBjRa
+    password: QWDDvVE9npNurQfA
     cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+    port: 80
+    server: 151.101.193.6
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: PABLO-MOSTAFAA.COM
+    uuid: 2657c719-a504-58fa-8a29-02476e27bb1b
+  - name: 🇺🇸_US_美国_2
+    port: 80
+    server: 151.101.2.228
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v05.drlimit.net
+    uuid: dc316ea1-2449-4217-a6fb-12db67a9177d
   - name: 🇺🇸_US_美国_3
     port: 80
-    server: 151.101.194.228
+    server: 151.101.66.228
     type: vless
     network: ws
     udp: true
     ws-opts:
       headers:
-        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v10.drlimit.net
-    uuid: 14c3063b-fa54-4404-bd26-678158abfd5f
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 9094
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v17.drlimit.net
+    uuid: dc316ea1-2449-4217-a6fb-12db67a9177d
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9018
     server: 217.30.10.18
     type: ss
     udp: true
-    password: rpgbNnU9rDDU4aWZ
+    password: fG2artUmHfNT2cX7
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9037
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: TN2YqghxeFDKZfLU
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_4
-    port: 22222
-    server: 3.71.244.39
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-  - name: 🇷🇺_RU_俄罗斯_4
-    port: 9020
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: BNmAXXxAHYpTRdzu
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_5
-    port: 443
-    server: 23.88.54.248
-    type: ss
-    udp: true
-    password: bux48kicKesu2GwIaqNKYmLRQR1DDaalwDxWYKOmeOI=
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_6
-    port: 8008
-    server: 142.202.49.122
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_7
-    port: 5500
-    server: 142.202.49.122
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_8
-    port: 8080
-    server: 104.17.147.22
+    port: 80
+    server: 151.101.128.223
     type: vless
     network: ws
     udp: true
     ws-opts:
-      path: /TELEGRAM-@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray,@MainV2-ray?ed=8880
       headers:
-        host: تماشای-فیلم.filimo.news.
-    uuid: edf2dced-1116-45df-951d-6031c294a340
-  - name: 🇺🇸_US_美国_9
-    port: 8080
-    server: www.speedtest.net
-    type: vmess
-    network: ws
+        host: O-ELi-V2-RAY.COM
+    uuid: 092f6989-74a2-5deb-841c-46622fd8f96d
+  - name: 🇷🇺_RU_俄罗斯_4
+    port: 9010
+    server: 217.30.10.18
+    type: ss
     udp: true
-    ws-opts:
-      path: /njbvhfgxdgthj
-      headers:
-        host: gi7ip5kbae7a.libreone.com
-    cipher: auto
-    uuid: cc9be09e-c05e-4f54-831b-969ecb185692
-    alterId: 0
+    password: f63gg8EruDnUrmz4
+    cipher: aes-256-cfb
   - name: 🇷🇺_RU_俄罗斯_5
     port: 9031
     server: 217.30.10.18
@@ -141,79 +91,159 @@ proxies:
     udp: true
     password: BwcAUZk8hUFAkDGN
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
-    port: 8080
-    server: 79.110.53.169
+  - name: 🇷🇺_RU_俄罗斯_6
+    port: 9011
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_10
+    password: M3t2ZEQcMGRWBjRa
+    cipher: aes-256-cfb
+  - name: 🇬🇧_GB_英国_2
+    port: 443
+    server: 212.102.53.193
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+    port: 80
+    server: 151.101.1.6
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: PABLO-MOSTAFAA.COM
+    uuid: 2657c719-a504-58fa-8a29-02476e27bb1b
+  - name: 🇺🇸_US_美国_5
     port: 8080
     server: 169.150.210.233
     type: ss
     udp: true
     password: 14fFPrbezE3HDZzsMOr6
     cipher: rc4-md5
-  - name: 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - name: 🇷🇺_RU_俄罗斯_7
+    port: 9064
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: cp8pRSUAyLhTfVWH
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_8
+    port: 23456
+    server: 185.22.155.228
+    type: ss
+    udp: true
+    password: dongtaiwang.com
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_6
     port: 80
-    server: 151.101.130.133
+    server: 151.101.3.8
     type: vless
     network: ws
     udp: true
-    servername: plex.com
     ws-opts:
-      path: /vless/
+      path: /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
       headers:
-        host: 7707.dev
-    uuid: 3b1e2c98-6025-41df-b82d-b539757f903f
-    client-fingerprint: chrome
-  - name: 🇺🇸_US_美国_11
+        host: mmd.ir
+    uuid: fd8082a0-7731-4772-9091-59ed9971088f
+  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
+    port: 80
+    server: 151.101.128.155
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+      headers:
+        host: mmd.ir
+    uuid: fd8082a0-7731-4772-9091-59ed9971088f
+  - name: 🇺🇸_US_美国_7
+    port: 443
+    server: 34.222.136.128
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_8
+    port: 8080
+    server: 23.251.121.242
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+    port: 80
+    server: 151.101.2.216
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+      headers:
+        host: mmd.ir
+    uuid: fd8082a0-7731-4772-9091-59ed9971088f
+  - name: 🇺🇸_US_美国_9
     port: 443
     server: 38.99.82.225
     type: trojan
     udp: true
     sni: jobsfortheworldtoday.com
     password: 71409d3e488548e8bb076d229778f008
-  - name: 🇨🇳_CN_中国
-    port: 8080
-    server: 107.155.57.11
-    type: ss
+  - name: 🇺🇸_US_美国->🇪🇸_ES_西班牙
+    port: 80
+    server: 199.232.196.204
+    type: vless
+    network: ws
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_12
-    port: 22222
-    server: 3.77.3.183
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇺🇸_US_美国_13
+    ws-opts:
+      path: /@VPNCUSTOMIZE-----@VPNCUSTOMIZE-----@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE?ed=2560
+      headers:
+        host: JoinBede--VPNCUSTOMIZE.ir
+    uuid: 6ef79989-6321-5e6b-b39e-602fc95ecf3e
+  - name: 🇺🇸_US_美国_10
     port: 443
-    server: 52.32.68.164
+    server: 34.222.132.123
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_14
-    port: 8080
-    server: 51.158.244.38
+  - name: 🇺🇸_US_美国->🇨🇭_CH_瑞士
+    port: 80
+    server: 199.232.212.3
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /
+      headers:
+        host: connectiran.ir
+    uuid: 43aa184c-531f-6c57-cc83-88c3f1921a76
+  - name: 🇷🇺_RU_俄罗斯_9
+    port: 9040
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇮🇳_IN_印度
-    port: 8080
-    server: 103.71.22.37
-    type: ss
+    password: p9z5BVADH2YFs3MN
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
+    port: 80
+    server: 151.101.194.165
+    type: vless
+    network: ws
     udp: true
-    password: GpUH3Cx4i3nSwSa2/E20D7ahRnDPEPD0Rf23yClvgDU=
-    cipher: aes-128-gcm
-  - name: 🇩🇪_DE_德国->🇨🇳_CN_中国
-    port: 8080
-    server: 193.108.119.230
-    type: ss
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: intenfomino1p1.com
+    uuid: 2d8497b5-23dd-46de-b654-717452302700
+  - name: 🇺🇸_US_美国_11
+    port: 80
+    server: 151.101.194.228
+    type: vless
+    network: ws
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
+    ws-opts:
+      headers:
+        host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v17.drlimit.net
+    uuid: dc316ea1-2449-4217-a6fb-12db67a9177d
