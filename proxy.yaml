@@ -1,32 +1,258 @@
 proxies:
-  - name: 🇷🇺_RU_俄罗斯_1
+  - name: 🇺🇸_US_美国_1_1
+    port: 8000
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯_1_1
+    port: 29025
+    server: 46.29.161.224
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+    cipher: auto
+    uuid: 9c883f99-7105-4e39-876d-167c1a90fbe0
+    alterId: 0
+  - name: 🇺🇸_US_美国_2_1
+    port: 8881
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+    port: 60194
+    server: ru0195.alibabaokz.com
+    type: trojan
+    udp: true
+    sni: ru0195.alibabaokz.com
+    password: 38571ca6-6692-4559-b901-0bc5826b7661
+    skip-cert-verify: true
+  - name: 🇺🇸_US_美国_3_1
+    port: 8090
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_4_1
+    port: 8118
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_5_1
+    port: 22222
+    server: 3.68.39.180
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇷🇺_RU_俄罗斯_2_1
+    port: 9050
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: FG5ddLsMPbV5CutE
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_6_1
+    port: 443
+    server: series-a2-mec.varzesh360.co
+    type: ss
+    udp: true
+    password: u17T3BvpYaaiuW2c
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_7
+    port: 6697
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_8
+    port: 5003
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国
+    port: 443
+    server: series-a1.samanehha.co
+    type: ss
+    udp: true
+    password: W74XFALLLuw6m5IA
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_9
+    port: 8091
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_10
+    port: 5001
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_11
+    port: 6379
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: zDNVedRFPQexG9v
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_12
+    port: 8080
+    server: 169.150.210.233
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    port: 40434
+    server: 183.236.51.23
+    type: vmess
+    network: tcp
+    udp: true
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 🇺🇸_US_美国_13
+    port: 7307
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_14
+    port: 7001
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_15
+    port: 8882
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_16
+    port: 9102
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_17
+    port: 3389
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_18
+    port: 8119
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_19
+    port: 9101
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国->🇮🇳_IN_印度
+    port: 80
+    server: 151.101.128.155
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /TeleGram.Channel@Hqv2RayNG---@Hqv2RayNG---@Hqv2RayNG---@Hqv2RayNG---@Hqv2RayNG---@Hqv2RayNG---@Hqv2RayNG---@Hqv2RayNG---@Hqv2RayNG-?ed=2048
+      headers:
+        host: Viscaria.com
+    uuid: 518515bc-e98c-4711-84cc-3d1388ed85c8
+  - name: 🇷🇴_RO_罗马尼亚
+    port: 8080
+    server: 194.5.215.59
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇷🇺_RU_俄罗斯_3_1
+    port: 29025
+    server: 176.32.33.124
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+    cipher: auto
+    uuid: d82cf9dc-4695-4fb8-83ae-56e4a76a0e76
+    alterId: 0
+  - name: 🇺🇸_US_美国_20
+    port: 5004
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_21
+    port: 80
+    server: 199.232.196.204
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /@VPNCUSTOMIZE-----@VPNCUSTOMIZE-----@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE?ed=2560
+      headers:
+        host: JoinBede--VPNCUSTOMIZE.ir
+    uuid: 6ef79989-6321-5e6b-b39e-602fc95ecf3e
+  - name: 🇷🇺_RU_俄罗斯_1_2
     port: 9005
     server: 217.30.10.18
     type: ss
     udp: true
     password: ZET59LF6DvCC8KVt
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_1
+  - name: 🇺🇸_US_美国_1_2
     port: 443
     server: sherasheba.com
     type: trojan
     udp: true
     password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  - name: 🇺🇸_US_美国_2
+  - name: 🇺🇸_US_美国_2_2
     port: 443
     server: 142.202.48.220
     type: trojan
     udp: true
     sni: sherasheba.com
     password: f0eb8c92ce8946aaba856569cff1a16b
-  - name: 🇺🇸_US_美国_3
+  - name: 🇺🇸_US_美国_3_2
     port: 22222
     server: 13.50.125.112
     type: trojan
     udp: true
     sni: trojan.burgerip.co.uk
     password: telegram-id-privatevpns
-  - name: 🇺🇸_US_美国_4
+  - name: 🇺🇸_US_美国_4_2
     port: 2052
     server: 104.17.147.22
     type: vless
@@ -38,7 +264,7 @@ proxies:
       headers:
         host: www-domain.ua1.v2vless.sitespeedtest.net
     uuid: 633ef643-9a47-5c6f-8689-a531cf17d279
-  - name: 🇷🇺_RU_俄罗斯_2
+  - name: 🇷🇺_RU_俄罗斯_2_2
     port: 5743
     server: 46.29.161.159
     type: vmess
@@ -62,7 +288,7 @@ proxies:
       headers:
         host: Viscaria.com
     uuid: 518515bc-e98c-4711-84cc-3d1388ed85c8
-  - name: 🇺🇸_US_美国_5
+  - name: 🇺🇸_US_美国_5_2
     port: 22222
     server: 13.50.138.98
     type: trojan
@@ -70,7 +296,7 @@ proxies:
     sni: trojan.burgerip.co.uk
     password: telegram-id-privatevpns
     skip-cert-verify: false
-  - name: 🇷🇺_RU_俄罗斯_3
+  - name: 🇷🇺_RU_俄罗斯_3_2
     port: 9006
     server: 217.30.10.18
     type: ss
@@ -210,7 +436,7 @@ proxies:
       headers:
         host: fatmelo.com
     uuid: c3c886af-1db6-40b2-d886-765ea91940ad
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
     port: 40434
     server: 183.236.51.23
     type: vmess
@@ -226,7 +452,7 @@ proxies:
     udp: true
     sni: trojan.burgerip.co.uk
     password: telegram-id-directvpn
-  - name: 🇺🇸_US_美国_6
+  - name: 🇺🇸_US_美国_6_2
     port: 443
     server: 35.88.126.102
     type: ss
