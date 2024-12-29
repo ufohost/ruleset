@@ -1,91 +1,60 @@
 proxies:
-  - name: 🇺🇸_US_美国_1
-    port: 443
-    server: 104.26.9.227
-    type: trojan
-    network: ws
-    udp: true
-    sni: usa03.rtx.al
-    password: b80Iy90Fma
-    ws-opts:
-      path: /cfyyds
-  - name: 🇹🇷_TR_土耳其
-    port: 989
-    server: 185.123.101.241
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_2
-    port: 8119
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国->🇧🇭_BH_巴林
-    port: 443
-    server: series-a2-me.varzesh360.co
-    type: ss
-    udp: true
-    password: Bog0ELmMM9DSxDdQ
-    cipher: chacha20-ietf-poly1305
-  - name: 🇬🇧_GB_英国_1
-    port: 443
-    server: series-a1.samanehha.co
-    type: ss
-    udp: true
-    password: W74XFALLLuw6m5IA
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 9079
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: TPqX8edgbAURcAMb
-    cipher: aes-256-cfb
-  - name: 🇷🇴_RO_罗马尼亚
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_3
-    port: 8080
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_4
-    port: 9101
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_5
-    port: 443
-    server: 54.200.223.152
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_6
+  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
     port: 80
-    server: 151.101.194.133
+    server: 151.101.194.228
     type: vless
     network: ws
     udp: true
     ws-opts:
-      path: /Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048
+      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
       headers:
-        host: snappfood.com
-    uuid: de146b2a-98ba-4ef9-acf1-5c7d0655731b
-  - name: 🇺🇸_US_美国_7
+        host: Dorzadim.filtero.neT
+    uuid: 80d90262-da2c-42de-addf-b645698faf92
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
+    port: 443
+    server: 54.244.200.142
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 9037
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: TN2YqghxeFDKZfLU
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_1
+    port: 443
+    server: 34.219.80.203
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇩🇪_DE_德国->🇺🇸_US_美国_1
+    port: 8080
+    server: 45.87.175.188
+    type: ss
+    udp: true
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9003
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: JdmRK9gMEqFgs8nP
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_2
+    port: 443
+    server: 34.213.242.165
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_3
     port: 80
-    server: 151.101.130.219
+    server: 151.101.2.165
     type: vless
     network: ws
     udp: true
@@ -95,14 +64,14 @@ proxies:
         ?ed=2048"
       headers:
         host: XpnTeam.ir
-    uuid: b0d53a55-9e8e-4f93-8fbf-926731b8d2ff
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9003
-    server: 217.30.10.18
-    type: ss
+    uuid: 1223f9b5-d225-4ca5-a4d7-15bc750c87f6
+  - name: 🇮🇪_IE_爱尔兰
+    port: 22222
+    server: 3.255.20.208
+    type: trojan
     udp: true
-    password: JdmRK9gMEqFgs8nP
-    cipher: aes-256-cfb
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
   - name: 🇷🇺_RU_俄罗斯_3
     port: 9038
     server: 217.30.10.18
@@ -111,142 +80,132 @@ proxies:
     password: gYCYXfkUQEs2TaJQ
     cipher: aes-256-cfb
   - name: 🇷🇺_RU_俄罗斯_4
-    port: 9001
-    server: 217.30.10.18
+    port: 23456
+    server: 185.22.155.228
     type: ss
     udp: true
-    password: UkXRsXvR6buDMG2Y
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_8
-    port: 443
-    server: 34.219.80.203
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
+    password: dongtaiwang.com
+    cipher: aes-256-gcm
   - name: 🇷🇺_RU_俄罗斯_5
-    port: 9041
+    port: 9026
     server: 217.30.10.18
     type: ss
     udp: true
-    password: U6qnYRhfyDmn8sgn
+    password: QWDDvVE9npNurQfA
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_9
-    port: 8000
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇩🇪_DE_德国->🇺🇸_US_美国
-    port: 22222
-    server: 3.126.167.125
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-  - name: 🇺🇸_US_美国_10
-    port: 22222
-    server: 3.133.241.50
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-  - name: 🇺🇸_US_美国_11
-    port: 8009
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: 🇮🇪_IE_爱尔兰
-    port: 55939
-    server: 13.79.98.64
-    type: ss
-    udp: true
-    password: 49JPbl6SMH1hDoskOR6irG
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_12
-    port: 22222
-    server: 13.37.176.178
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇺🇸_US_美国_13
-    port: 8080
-    server: 169.150.210.233
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
   - name: 🇷🇺_RU_俄罗斯_6
-    port: 9019
+    port: 9010
     server: 217.30.10.18
     type: ss
     udp: true
-    password: GA9KzeEgvfxNrgmM
+    password: f63gg8EruDnUrmz4
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_14
-    port: 443
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: pKEW8JPByTVTLtM
-    cipher: aes-256-gcm
-  - name: 🇬🇧_GB_英国_2
-    port: 443
-    server: 212.102.53.194
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_15
-    port: 5003
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
   - name: 🇷🇺_RU_俄罗斯_7
-    port: 9050
+    port: 9094
     server: 217.30.10.18
     type: ss
     udp: true
-    password: FG5ddLsMPbV5CutE
+    password: rpgbNnU9rDDU4aWZ
     cipher: aes-256-cfb
   - name: 🇷🇺_RU_俄罗斯_8
-    port: 9011
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: M3t2ZEQcMGRWBjRa
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_16
-    port: 5601
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_17
-    port: 22222
-    server: 15.157.81.48
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-  - name: 🇷🇺_RU_俄罗斯_9
     port: 9064
     server: 217.30.10.18
     type: ss
     udp: true
     password: cp8pRSUAyLhTfVWH
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_18
+  - name: 🇺🇸_US_美国_4
+    port: 80
+    server: 151.101.2.228
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
+      headers:
+        host: Dorzadim.filtero.neT
+    uuid: 80d90262-da2c-42de-addf-b645698faf92
+  - name: 🇺🇸_US_美国_5
+    port: 443
+    server: 52.32.68.164
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_2
+    port: 8388
+    server: 137.175.113.192
+    type: ss
+    udp: true
+    password: asd123456
+    cipher: chacha20-ietf
+  - name: 🇺🇸_US_美国_6
+    port: 8080
+    server: 169.150.210.233
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    port: 20760
+    server: 51.13.35.115
+    type: ss
+    udp: true
+    password: SK8DG4IJFnDwuhy35hOWUj
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_9
+    port: 9024
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: BejrQvtu9sqUeNuZ
+    cipher: aes-256-cfb
+  - name: 🇮🇷_IR_伊朗->🇹🇷_TR_土耳其
+    port: 1935
+    server: 85.133.241.75
+    type: ss
+    udp: true
+    password: 21586aab-3a37-4f55-b8b7-5ae69572d403
+    cipher: chacha20-ietf-poly1305
+  - name: 🇧🇬_BG_保加利亚->🇨🇳_CN_中国
+    port: 443
+    server: 149.34.244.68
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🇺🇸_US_美国_7
     port: 443
     server: 54.69.180.74
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_10
+    port: 9042
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: S7KwUu7yBy58S3Ga
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_11
+    port: 9059
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: 9XwYyZsK8SNzQDtY
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_8
+    port: 443
+    server: 35.90.2.104
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇩🇪_DE_德国->🇺🇸_US_美国_2
+    port: 8080
+    server: 45.87.175.192
+    type: ss
+    udp: true
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+    cipher: chacha20-ietf-poly1305
