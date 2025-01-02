@@ -1,8 +1,5 @@
 # 直连补充列表
 
-IP-CIDR,51.38.72.24/32,no-resolve
-IP-CIDR,169.150.222.245/32,no-resolve
-
 # 域名关键字匹配
 DOMAIN-KEYWORD,mirror
 DOMAIN-KEYWORD,ghgo
@@ -11,7 +8,6 @@ DOMAIN-KEYWORD,lanzou
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,us.kg
-DOMAIN-SUFFIX,turtle-wow.org
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,54lee.com
 DOMAIN-SUFFIX,iopq.net
