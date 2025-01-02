@@ -1,262 +1,94 @@
 proxies:
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 443
+    server: social-bream.boa152.lol
+    type: trojan
+    udp: true
+    sni: social-bream.boa152.lol
+    password: "3723507166611775488"
+    skip-cert-verify: true
   - name: 🇺🇸_US_美国_1
     port: 443
-    server: 34.211.229.86
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-    port: 8080
-    server: 45.131.7.96
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /2a4fa40f
-      headers:
-        host: luodi.davesuen.store
-    cipher: auto
-    uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-    alterId: 0
-  - name: 🇺🇸_US_美国_2
-    port: 443
-    server: series-a2-mec.varzesh360.co
-    type: ss
-    udp: true
-    password: u17T3BvpYaaiuW2c
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_3
-    port: 443
-    server: 35.88.126.102
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
-    port: 8080
-    server: 45.131.7.100
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /2a4fa40f
-      headers:
-        host: luodi.davesuen.store
-    cipher: auto
-    uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-    alterId: 0
-  - name: 🇺🇸_US_美国_4
-    port: 8080
-    server: 169.150.210.233
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇫🇷_FR_法国_1
-    port: 22222
-    server: 35.180.161.76
+    server: tight-clam.boa152.lol
     type: trojan
-    network: tcp
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    alpn:
-      - http/1.1
-  - name: 🇺🇸_US_美国_5
-    port: 80
-    server: 151.101.129.6
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      headers:
-        host: PABLOO-MOSTAFA.COM
-    uuid: 0b5fbb0c-fbc8-5260-a6dc-d536ba9f0e5d
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-    port: 25216
-    server: cm1.awslcn.info
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
+    sni: tight-clam.boa152.lol
+    password: "3723507166611775488"
     skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cm1.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
-  - name: 🇷🇺_RU_俄罗斯_1
+  - name: 🇷🇺_RU_俄罗斯_2
     port: 2198
     server: 77.91.122.79
     type: vless
     network: tcp
     udp: true
     uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  - name: 🇷🇴_RO_罗马尼亚
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_6
+  - name: 🇫🇷_FR_法国->🏳️_unKnow_未知
     port: 443
-    server: 35.161.59.194
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9059
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: 9XwYyZsK8SNzQDtY
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_7
-    port: 443
-    server: 54.244.200.142
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国_1
-    port: 8080
-    server: 146.70.61.18
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_8
-    port: 80
-    server: 151.101.65.6
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      headers:
-        host: PABLOO-MOSTAFA.COM
-    uuid: 0b5fbb0c-fbc8-5260-a6dc-d536ba9f0e5d
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 2198
-    server: 185.236.233.136
-    type: vless
-    network: tcp
-    udp: true
-    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  - name: 🇬🇧_GB_英国_2
-    port: 22222
-    server: 3.9.225.194
+    server: devoted-starfish.boa152.lol
     type: trojan
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇺🇸_US_美国_9
-    port: 80
-    server: 151.101.130.219
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /olem/ws?ed=1024@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi
-      headers:
-        host: foffmelo.com
-    uuid: dc7b6c02-707f-4beb-99bd-7be9526aa502
-  - name: 🇬🇧_GB_英国_3
-    port: 22222
-    server: 51.20.215.141
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    alpn:
-      - http/1.1
-  - name: 🇩🇪_DE_德国_1
-    port: 8080
-    server: 193.108.119.230
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_3
-    port: 8080
-    server: 45.131.7.255
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
+    sni: devoted-starfish.boa152.lol
+    password: "3723507166611775488"
     skip-cert-verify: true
-    ws-opts:
-      path: /2a4fa40f
-      headers:
-        host: luodi.davesuen.store
-    cipher: auto
-    uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-    alterId: 0
-  - name: 🇩🇪_DE_德国_2
-    port: 22222
-    server: 18.194.63.128
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 443
+    server: pleased-slug.boa152.lol
     type: trojan
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇺🇸_US_美国_10
-    port: 22222
-    server: 13.37.21.185
-    type: trojan
+    sni: pleased-slug.boa152.lol
+    password: "3723507166611775488"
+    skip-cert-verify: true
+  - name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大
+    port: 18789
+    server: zx2.1010520.xyz
+    type: ss
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇫🇷_FR_法国_2
-    port: 22222
-    server: 15.236.166.81
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    alpn:
-      - http/1.1
-  - name: 🇺🇸_US_美国_11
+    password: f5136746-de79-46d0-b3be-d15d9992fa07
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_2
     port: 2198
-    server: 94.131.106.53
+    server: 171.22.125.181
     type: vless
     network: tcp
     udp: true
     uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国
-    port: 25240
-    server: cm.awslcn.info
-    type: vmess
+  - name: 🇮🇳_IN_印度->🇺🇸_US_美国
+    port: 80
+    server: 151.101.158.204
+    type: vless
     network: ws
     udp: true
-    sni: ""
+    servername: zmaoz.faculty.ucdavis.edu.
+    ws-opts:
+      path: /olem/ws?ed=64
+      headers:
+        host: fatmelo.com
+    uuid: 16adb454-50e3-4c1c-b516-7ee0493b1889
+    client-fingerprint: chrome
+  - name: 🇺🇸_US_美国_3
+    port: 443
+    server: eternal-tadpole.boa152.lol
+    type: trojan
+    udp: true
+    sni: eternal-tadpole.boa152.lol
+    password: "3723507166611775488"
+    skip-cert-verify: true
+  - name: 🇨🇳_CN_中国
+    port: 19254
+    server: zx3.1010520.xyz
+    type: ss
+    udp: true
+    password: f5136746-de79-46d0-b3be-d15d9992fa07
+    cipher: chacha20-ietf-poly1305
+  - name: duck free25
+    port: 2052
+    server: www.ipget.net
+    type: vless
+    network: ws
+    udp: true
     skip-cert-verify: true
     ws-opts:
       path: /
       headers:
-        host: cm.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
-  - name: BGP香港
-    port: 58013
-    server: 162.245.221.112
-    type: vless
-    network: tcp
-    udp: true
-    servername: swdist.apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    uuid: 9c742c68-4398-4355-c69a-1c2e1eb14f33
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
+        host: duck25.happyme.cloudns.biz
+    uuid: 65d90596-8676-4565-fa1b-17c09d6385ba
