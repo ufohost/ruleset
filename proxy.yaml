@@ -1,211 +1,262 @@
 proxies:
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
-    port: 80
-    server: 151.101.194.228
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-      headers:
-        host: Dorzadim.filtero.neT
-    uuid: 80d90262-da2c-42de-addf-b645698faf92
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
-    port: 443
-    server: 54.244.200.142
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 9037
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: TN2YqghxeFDKZfLU
-    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_1
     port: 443
-    server: 34.219.80.203
+    server: 34.211.229.86
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇩🇪_DE_德国->🇺🇸_US_美国_1
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
     port: 8080
-    server: 45.87.175.188
-    type: ss
+    server: 45.131.7.96
+    type: vmess
+    network: ws
     udp: true
-    password: 1RWwXhwfAB5gAEozU4G2Pg
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9003
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: JdmRK9gMEqFgs8nP
-    cipher: aes-256-cfb
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /2a4fa40f
+      headers:
+        host: luodi.davesuen.store
+    cipher: auto
+    uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+    alterId: 0
   - name: 🇺🇸_US_美国_2
     port: 443
-    server: 34.213.242.165
+    server: series-a2-mec.varzesh360.co
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
+    password: u17T3BvpYaaiuW2c
+    cipher: chacha20-ietf-poly1305
   - name: 🇺🇸_US_美国_3
-    port: 80
-    server: 151.101.2.165
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: "@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/\
-        @XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam\
-        ?ed=2048"
-      headers:
-        host: XpnTeam.ir
-    uuid: 1223f9b5-d225-4ca5-a4d7-15bc750c87f6
-  - name: 🇮🇪_IE_爱尔兰
-    port: 22222
-    server: 3.255.20.208
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 9038
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: gYCYXfkUQEs2TaJQ
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_4
-    port: 23456
-    server: 185.22.155.228
-    type: ss
-    udp: true
-    password: dongtaiwang.com
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_5
-    port: 9026
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: QWDDvVE9npNurQfA
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_6
-    port: 9010
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: f63gg8EruDnUrmz4
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_7
-    port: 9094
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: rpgbNnU9rDDU4aWZ
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_8
-    port: 9064
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: cp8pRSUAyLhTfVWH
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_4
-    port: 80
-    server: 151.101.2.228
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-      headers:
-        host: Dorzadim.filtero.neT
-    uuid: 80d90262-da2c-42de-addf-b645698faf92
-  - name: 🇺🇸_US_美国_5
     port: 443
-    server: 52.32.68.164
+    server: 35.88.126.102
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_2
-    port: 8388
-    server: 137.175.113.192
-    type: ss
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+    port: 8080
+    server: 45.131.7.100
+    type: vmess
+    network: ws
     udp: true
-    password: asd123456
-    cipher: chacha20-ietf
-  - name: 🇺🇸_US_美国_6
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /2a4fa40f
+      headers:
+        host: luodi.davesuen.store
+    cipher: auto
+    uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+    alterId: 0
+  - name: 🇺🇸_US_美国_4
     port: 8080
     server: 169.150.210.233
     type: ss
     udp: true
     password: 14fFPrbezE3HDZzsMOr6
     cipher: rc4-md5
-  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
-    port: 20760
-    server: 51.13.35.115
+  - name: 🇫🇷_FR_法国_1
+    port: 22222
+    server: 35.180.161.76
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    alpn:
+      - http/1.1
+  - name: 🇺🇸_US_美国_5
+    port: 80
+    server: 151.101.129.6
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: PABLOO-MOSTAFA.COM
+    uuid: 0b5fbb0c-fbc8-5260-a6dc-d536ba9f0e5d
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+    port: 25216
+    server: cm1.awslcn.info
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: cm1.awslcn.info
+    cipher: auto
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    alterId: 0
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 2198
+    server: 77.91.122.79
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  - name: 🇷🇴_RO_罗马尼亚
+    port: 8080
+    server: 194.5.215.59
     type: ss
     udp: true
-    password: SK8DG4IJFnDwuhy35hOWUj
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_9
-    port: 9024
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: BejrQvtu9sqUeNuZ
-    cipher: aes-256-cfb
-  - name: 🇮🇷_IR_伊朗->🇹🇷_TR_土耳其
-    port: 1935
-    server: 85.133.241.75
-    type: ss
-    udp: true
-    password: 21586aab-3a37-4f55-b8b7-5ae69572d403
-    cipher: chacha20-ietf-poly1305
-  - name: 🇧🇬_BG_保加利亚->🇨🇳_CN_中国
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇺🇸_US_美国_6
     port: 443
-    server: 149.34.244.68
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_7
-    port: 443
-    server: 54.69.180.74
+    server: 35.161.59.194
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_10
-    port: 9042
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: S7KwUu7yBy58S3Ga
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_11
+  - name: 🇷🇺_RU_俄罗斯_2
     port: 9059
     server: 217.30.10.18
     type: ss
     udp: true
     password: 9XwYyZsK8SNzQDtY
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_8
+  - name: 🇺🇸_US_美国_7
     port: 443
-    server: 35.90.2.104
+    server: 54.244.200.142
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇩🇪_DE_德国->🇺🇸_US_美国_2
+  - name: 🇬🇧_GB_英国_1
     port: 8080
-    server: 45.87.175.192
+    server: 146.70.61.18
     type: ss
     udp: true
-    password: 1RWwXhwfAB5gAEozU4G2Pg
-    cipher: chacha20-ietf-poly1305
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇺🇸_US_美国_8
+    port: 80
+    server: 151.101.65.6
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: PABLOO-MOSTAFA.COM
+    uuid: 0b5fbb0c-fbc8-5260-a6dc-d536ba9f0e5d
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 2198
+    server: 185.236.233.136
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  - name: 🇬🇧_GB_英国_2
+    port: 22222
+    server: 3.9.225.194
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇺🇸_US_美国_9
+    port: 80
+    server: 151.101.130.219
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /olem/ws?ed=1024@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi
+      headers:
+        host: foffmelo.com
+    uuid: dc7b6c02-707f-4beb-99bd-7be9526aa502
+  - name: 🇬🇧_GB_英国_3
+    port: 22222
+    server: 51.20.215.141
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    alpn:
+      - http/1.1
+  - name: 🇩🇪_DE_德国_1
+    port: 8080
+    server: 193.108.119.230
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_3
+    port: 8080
+    server: 45.131.7.255
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /2a4fa40f
+      headers:
+        host: luodi.davesuen.store
+    cipher: auto
+    uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
+    alterId: 0
+  - name: 🇩🇪_DE_德国_2
+    port: 22222
+    server: 18.194.63.128
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇺🇸_US_美国_10
+    port: 22222
+    server: 13.37.21.185
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇫🇷_FR_法国_2
+    port: 22222
+    server: 15.236.166.81
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    alpn:
+      - http/1.1
+  - name: 🇺🇸_US_美国_11
+    port: 2198
+    server: 94.131.106.53
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国
+    port: 25240
+    server: cm.awslcn.info
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: cm.awslcn.info
+    cipher: auto
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    alterId: 0
+  - name: BGP香港
+    port: 58013
+    server: 162.245.221.112
+    type: vless
+    network: tcp
+    udp: true
+    servername: swdist.apple.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    uuid: 9c742c68-4398-4355-c69a-1c2e1eb14f33
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
