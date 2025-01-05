@@ -1,260 +1,60 @@
 proxies:
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 9031
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: BwcAUZk8hUFAkDGN
-    cipher: aes-256-cfb
-  - name: 🇭🇺_HU_匈牙利
-    port: 443
-    server: profound-elk.boa152.lol
-    type: trojan
-    udp: true
-    sni: profound-elk.boa152.lol
-    password: "3723507166611775488"
-    skip-cert-verify: true
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    port: 56315
-    server: zx1.1010520.xyz
-    type: ss
-    udp: true
-    password: f5136746-de79-46d0-b3be-d15d9992fa07
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇴_RO_罗马尼亚->🇷🇺_RU_俄罗斯
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9025
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: XPtzA9sCug3SPR4c
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 2198
-    server: 185.236.233.136
-    type: vless
-    network: tcp
-    udp: true
-    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
   - name: 🇨🇦_CA_加拿大
-    port: 990
-    server: 64.74.163.130
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-    port: 25284
-    server: cu.awslcn.info
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cu.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
-  - name: 🇺🇸_US_美国->🇮🇪_IE_爱尔兰
     port: 443
-    server: 37.9.34.121
+    server: neutral-magpie.treefrog761.one
     type: trojan
     udp: true
-    sni: tight-clam.boa152.lol
-    password: "3723507166611775488"
-    skip-cert-verify: true
-  - name: 🇺🇸_US_美国_1
-    port: 443
-    server: 35.155.4.93
-    type: trojan
-    network: tcp
-    udp: true
-    sni: usable-toad.treefrog761.one
-    password: "3723507166611775488"
-    skip-cert-verify: true
-  - name: 🇭🇺_HU_匈牙利->🇮🇷_IR_伊朗
-    port: 443
-    server: 62.112.221.46
-    type: trojan
-    udp: true
-    sni: boss-hound.boa152.lol
-    password: "3723507166611775488"
-    skip-cert-verify: true
-  - name: 未知
-    port: 2198
-    server: 103.106.2.221
-    type: vless
-    network: tcp
-    udp: true
-    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-    port: 8080
-    server: 23.251.121.242
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇫🇷_FR_法国->🇺🇸_US_美国_1
-    port: 443
-    server: 5.189.203.38
-    type: trojan
-    udp: true
-    sni: sacred-guppy.boa152.lol
-    password: "3723507166611775488"
-    skip-cert-verify: true
-  - name: 🇷🇺_RU_俄罗斯_4
-    port: 443
-    server: 195.133.93.234
-    type: trojan
-    udp: true
-    sni: wise-cowbird.boa152.lol
-    password: "3723507166611775488"
-  - name: 🇫🇷_FR_法国
-    port: 443
-    server: sacred-guppy.boa152.lol
-    type: trojan
-    udp: true
-    sni: sacred-guppy.boa152.lol
+    sni: neutral-magpie.treefrog761.one
     password: "3723507166611775488"
     skip-cert-verify: false
-  - name: 🇷🇺_RU_俄罗斯_5
+  - name: 🇺🇸_US_美国_1
     port: 443
-    server: 80.240.112.236
-    type: trojan
-    udp: true
-    sni: pleased-slug.boa152.lol
-    password: "3723507166611775488"
-    skip-cert-verify: true
-  - name: 🇺🇸_US_美国_2
-    port: 443
-    server: 34.211.229.86
+    server: 34.222.136.128
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_3
-    port: 80
-    server: 173.245.58.100
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: knOtNrmV2rayOtanOtrmNnOtenOtl.terminal-kaneop-none.SARBAZIT.COM
-    uuid: 860bf99f-6817-4892-aa77-1877ec73a57b
-  - name: 🇷🇺_RU_俄罗斯_6
-    port: 443
-    server: 80.240.112.167
-    type: trojan
-    udp: true
-    sni: ample-cockatoo.boa152.lol
-    password: "3723507166611775488"
-    skip-cert-verify: true
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-    port: 56315
-    server: zx2.1010520.xyz
-    type: ss
-    udp: true
-    password: f5136746-de79-46d0-b3be-d15d9992fa07
-    cipher: chacha20-ietf-poly1305
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-    port: 25216
-    server: cm.awslcn.info
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cm.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
-  - name: 🇷🇺_RU_俄罗斯_7
-    port: 23456
-    server: 185.22.155.228
-    type: ss
-    udp: true
-    password: dongtaiwang.com
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_4
-    port: 80
-    server: 151.101.2.165
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: "@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/\
-        @XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam\
-        ?ed=2048"
-      headers:
-        host: WHALEV2R.IR
-    uuid: c28edd4a-f14b-4a96-c09c-33d89d24aef2
-  - name: 🇷🇺_RU_俄罗斯_8
-    port: 9019
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 9042
     server: 217.30.10.18
     type: ss
     udp: true
-    password: GA9KzeEgvfxNrgmM
+    password: S7KwUu7yBy58S3Ga
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_5
+  - name: 🇺🇸_US_美国_2
     port: 443
-    server: 74.226.136.204
-    type: trojan
-    udp: true
-    sni: us01.trojanyyds.xyz
-    password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  - name: 🇰🇷_KR_韩国->🇫🇷_FR_法国
-    port: 443
-    server: 132.145.94.80
-    type: trojan
-    udp: true
-    sni: yournextcareerstep.online
-    password: e8105dfd24414268b6c7652c63731097
-    skip-cert-verify: false
-  - name: 🇨🇳_CN_中国->🇫🇮_FI_芬兰
-    port: 34857
-    server: zx2.1010520.xyz
+    server: 23.88.37.31
     type: ss
     udp: true
-    password: f5136746-de79-46d0-b3be-d15d9992fa07
+    password: LuxyNetBot
     cipher: chacha20-ietf-poly1305
-  - name: 🇫🇷_FR_法国->🇺🇸_US_美国_2
+  - name: 🇭🇺_HU_匈牙利_1
     port: 443
-    server: 5.189.203.50
+    server: boss-hound.boa152.lol
     type: trojan
-    udp: true
-    sni: devoted-starfish.boa152.lol
-    password: "3723507166611775488"
-  - name: 🇷🇺_RU_俄罗斯_9
-    port: 443
-    server: nearby-hedgehog.boa152.lol
-    type: trojan
-    udp: true
-    sni: nearby-hedgehog.boa152.lol
-    password: "3723507166611775488"
-    skip-cert-verify: true
-  - name: 🇫🇮_FI_芬兰
-    port: 13364
-    server: 95.216.160.100
-    type: vmess
     network: tcp
     udp: true
-    cipher: auto
-    uuid: c72a8fa3-4483-4f0d-a6d1-9422456c6813
-    alterId: 0
+    sni: boss-hound.boa152.lol
+    password: "3723507166611775488"
+  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
+    port: 80
+    server: 151.101.194.165
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
+      headers:
+        host: 6.fidsxss1x.ir
+    uuid: a8ebc753-99d3-40d5-b015-9ec7fd19aac4
+  - name: 🇭🇺_HU_匈牙利_2
+    port: 443
+    server: profound-elk.boa152.lol
+    type: trojan
+    network: tcp
+    udp: true
+    sni: profound-elk.boa152.lol
+    password: "3723507166611775488"
   - name: 🇱🇻_LV_拉脱维亚
     port: 990
     server: 46.183.217.232
@@ -262,6 +62,184 @@ proxies:
     udp: true
     password: f8f7aCzcPKbsF8p3
     cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_3
+    port: 443
+    server: 35.85.33.177
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9033
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: UTJA57ypk2XKQpnm
+    cipher: aes-256-cfb
+  - name: 🇺🇦_UA_乌克兰
+    port: 31348
+    server: 188.191.147.127
+    type: ss
+    udp: true
+    password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9011
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: M3t2ZEQcMGRWBjRa
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_4
+    port: 2198
+    server: 171.22.125.188
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  - name: 🇺🇸_US_美国_5
+    port: 80
+    server: 151.101.194.219
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        host: MO-SI-V2.COM
+    uuid: 528b1201-8b21-5bc2-bbce-5863731a4ac9
+  - name: 🇺🇸_US_美国_6
+    port: 20733
+    server: 3.79.61.93
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 928c7c5b-5928-4b7c-98d7-dcfca65d02f3
+  - name: 🇺🇸_US_美国_7
+    port: 2198
+    server: 171.22.124.195
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  - name: 🇺🇸_US_美国_8
+    port: 443
+    server: 54.186.92.34
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
+    port: 2052
+    server: 209.38.219.225
+    type: vless
+    network: ws
+    udp: true
+    servername: de1.v4vless.xyz
+    ws-opts:
+      path: /vless-ws
+      headers:
+        host: de1.v4vless.xyz.
+    uuid: 1681ec0a-8d65-40f1-a220-55a2e9f22b4b
+  - name: 🇷🇺_RU_俄罗斯_4
+    port: 23456
+    server: 185.22.155.228
+    type: ss
+    udp: true
+    password: dongtaiwang.com
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+    port: 2082
+    server: 147.182.215.158
+    type: vmess
+    network: http
+    udp: true
+    http-opts: {}
+    cipher: auto
+    uuid: 9211eba6-22f8-4a44-8aba-b3e15d7edfbe
+    alterId: 0
+  - name: 🇺🇸_US_美国_9
+    port: 443
+    server: 34.222.132.123
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇷🇴_RO_罗马尼亚
+    port: 8080
+    server: 194.5.215.59
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇺🇸_US_美国_10
+    port: 80
+    server: 151.101.2.165
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /Telegram-Channel:@Hqv2RayNG-----@Hqv2RayNG-----@Hqv2RayNG-----@Hqv2RayNG-----@Hqv2RayNG-----@Hqv2RayNG-----@Hqv2RayNG-----@Hqv2RayNG-----@Hqv2RayNG-----@Hqv2RayNG?ed=2560
+      headers:
+        host: Pofak.com
+    uuid: 6edb03ea-d546-45a2-92f4-785697420fb2
+  - name: 🇺🇸_US_美国_11
+    port: 443
+    server: 54.245.207.144
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_12
+    port: 80
+    server: 151.101.2.219
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /olem/ws?ed=1024
+      headers:
+        host: foffmelo.com
+    uuid: 3e92c450-e23d-4826-e952-9cbe5a508e73
+  - name: 🇨🇦_CA_加拿大->🇵🇱_PL_波兰
+    port: 443
+    server: 15.223.141.195
+    type: trojan
+    udp: true
+    sni: neutral-magpie.treefrog761.one
+    password: "3723507166611775488"
+    skip-cert-verify: false
+  - name: 🇷🇺_RU_俄罗斯_5
+    port: 9038
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: gYCYXfkUQEs2TaJQ
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
+    port: 80
+    server: 151.101.130.216
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: marzneshigermanfour.com
+    uuid: 60985471-8040-bc44-213e-780f6a853aa9
+  - name: 🇷🇺_RU_俄罗斯_6
+    port: 9026
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: QWDDvVE9npNurQfA
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_7
+    port: 9094
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: rpgbNnU9rDDU4aWZ
+    cipher: aes-256-cfb
   - name: duck free25
     port: 2052
     server: www.ipget.net
