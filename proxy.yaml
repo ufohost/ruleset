@@ -1,32 +1,130 @@
 proxies:
+  - name: 🇩🇪_DE_德国_1
+    port: 34742
+    server: 91.107.187.80
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 6adfc877-93cf-4ea3-b2c4-a3fff0b692b7
   - name: 🇷🇺_RU_俄罗斯_1
-    port: 9038
+    port: 9018
     server: 217.30.10.18
     type: ss
     udp: true
-    password: gYCYXfkUQEs2TaJQ
+    password: fG2artUmHfNT2cX7
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 14585
+    server: 45.8.158.32
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    cipher: auto
+    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+    alterId: 0
+    fingerprint: ""
+  - name: 🇩🇪_DE_德国_2
+    port: 443
+    server: 185.77.217.121
+    type: ss
+    udp: true
+    password: X7eoEBrARWsBUiVfchVEdH
+    cipher: chacha20-ietf-poly1305
+  - name: 🇬🇧_GB_英国_1
+    port: 3089
+    server: 51.13.182.231
+    type: ss
+    udp: true
+    password: J0lgxy4mb52CIJ8UUcEgts
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+    port: 23393
+    server: 95.142.37.48
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 72996cf0-59da-4c97-8acd-4fdaf0c49407
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9064
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: cp8pRSUAyLhTfVWH
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_1
-    port: 22222
-    server: 3.146.177.20
-    type: trojan
+    port: 80
+    server: 151.101.130.216
+    type: vless
+    network: ws
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
+    ws-opts:
+      path: /?ed=8080
+      headers:
+        host: marzneshinnetherland.com.au
+    uuid: 2bee1f5e-b3d8-5e59-3657-ea1c18723661
+  - name: 🇮🇳_IN_印度->🇺🇸_US_美国
+    port: 80
+    server: 151.101.158.204
+    type: vless
+    network: ws
+    udp: true
+    servername: zmaoz.faculty.ucdavis.edu.
+    ws-opts:
+      path: /olem/ws?ed=64
+      headers:
+        host: fatmelo.com
+    uuid: 3a67aaab-515e-4079-a518-d00cb5e6b20e
+    client-fingerprint: chrome
   - name: 🇺🇸_US_美国_2
+    port: 80
+    server: 151.101.0.223
+    type: vless
+    network: ws
+    udp: true
+    servername: faculty.ucdavis.edu
+    ws-opts:
+      path: /--@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY?ed=2560
+      headers:
+        host: tg.ELiV2RaY.ir
+    uuid: ee01027e-e413-575a-8a5f-ba8ba569eb8b
+    client-fingerprint: qq
+  - name: 🇺🇸_US_美国_3
+    port: 80
+    server: 151.101.66.216
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /?ed=8080
+      headers:
+        host: marzneshinnetherland.com.au
+    uuid: 2bee1f5e-b3d8-5e59-3657-ea1c18723661
+  - name: 🇩🇪_DE_德国_3
     port: 443
-    server: 77.83.246.74
+    server: 65.21.153.186
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /
+      headers:
+        host: 5h4.golabkashaniz.info
+    uuid: 95089f63-c732-4594-bfcb-c8180bd09a1c
+  - name: 🇺🇸_US_美国_4
+    port: 7306
+    server: 38.110.1.122
     type: ss
     udp: true
-    password: bgVLa40UMc7JvMKq0EDxot
-    cipher: chacha20-ietf-poly1305
-  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
-    port: 443
-    server: series-a1.samanehha.co
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯_4
+    port: 9094
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: W74XFALLLuw6m5IA
-    cipher: chacha20-ietf-poly1305
+    password: rpgbNnU9rDDU4aWZ
+    cipher: aes-256-cfb
   - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
     port: 25230
     server: cm1.awslcn.info
@@ -42,192 +140,117 @@ proxies:
     cipher: auto
     uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
     alterId: 0
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9025
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: XPtzA9sCug3SPR4c
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
-    port: 80
-    server: 151.101.65.6
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: PABLO-MOSTAFAA.COM
-    uuid: 881c2728-f294-539e-adec-7d4b7201c751
-  - name: 🇺🇸_US_美国->🇯🇵_JP_日本
-    port: 443
-    server: 34.222.132.123
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇮🇷_IR_伊朗
-    port: 50067
-    server: 78.157.59.140
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: MgbJP.divarcdn.com,LXHRl.snappfood.ir,3cubP.yjc.ir,XbifM.digikala.com,HL56Q.tic.ir
-    uuid: 9e316ce0-8fd3-4058-bc5e-241f9c3a9f56
-  - name: 🇮🇳_IN_印度->🇺🇸_US_美国
-    port: 80
-    server: 151.101.158.204
-    type: vless
-    network: ws
-    udp: true
-    servername: zmaoz.faculty.ucdavis.edu.
-    ws-opts:
-      path: /olem/ws?ed=64
-      headers:
-        host: fatmelo.com
-    uuid: 3a67aaab-515e-4079-a518-d00cb5e6b20e
-    client-fingerprint: chrome
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 9041
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: U6qnYRhfyDmn8sgn
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_4
-    port: 9042
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: S7KwUu7yBy58S3Ga
-    cipher: aes-256-cfb
   - name: 🇷🇺_RU_俄罗斯_5
-    port: 9033
+    port: 9038
     server: 217.30.10.18
     type: ss
     udp: true
-    password: UTJA57ypk2XKQpnm
+    password: gYCYXfkUQEs2TaJQ
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_3
+  - name: 🇯🇵_JP_日本->🇺🇸_US_美国
     port: 443
-    server: 54.69.180.74
-    type: ss
+    server: us01.trojanyyds.xyz
+    type: trojan
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇮🇷_IR_伊朗->🇺🇸_US_美国
-    port: 2002
-    server: 188.245.69.193
-    type: vless
+    password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  - name: 🇩🇪_DE_德国->🇺🇸_US_美国
+    port: 22222
+    server: 3.126.218.145
+    type: trojan
     network: tcp
     udp: true
-    uuid: a64a6131-0033-4eaa-bfcb-377394f943a4
-  - name: 🇺🇸_US_美国_4
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    alpn:
+      - http/1.1
+  - name: 🇺🇸_US_美国_5
     port: 443
-    server: 54.202.77.81
+    server: 77.83.246.74
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇫🇷_FR_法国->🇺🇸_US_美国
-    port: 443
-    server: 62.210.88.22
-    type: ss
-    udp: true
-    password: CjRl817CxXpVJ0j2nhJRWa
+    password: l6hXyMxi034TRntxgeF4tf
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
-    port: 80
-    server: 151.101.1.6
-    type: vless
-    network: ws
+  - name: 🇯🇵_JP_日本->🇳🇱_NL_荷兰
+    port: 443
+    server: jp.lydurlclub.top
+    type: trojan
     udp: true
-    ws-opts:
-      headers:
-        host: PABLO-MOSTAFAA.COM
-    uuid: 881c2728-f294-539e-adec-7d4b7201c751
+    password: c4843eba-b070-403f-b43f-ef1ef7db571e
+    skip-cert-verify: true
+  - name: 🇺🇸_US_美国_6
+    port: 8090
+    server: 38.110.1.122
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
   - name: 🇷🇺_RU_俄罗斯_6
-    port: 9011
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: M3t2ZEQcMGRWBjRa
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_7
-    port: 9014
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: KnJGad3FqTvjqbaX
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_8
-    port: 11291
-    server: 147.45.50.49
-    type: ss
-    udp: true
-    password: YNNNcMnYknrj2hDS5yVNgS
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_9
-    port: 9027
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: EXN3S3eQpjE7EJu8
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
-    port: 80
-    server: 151.101.129.6
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: PABLO-MOSTAFAA.COM
-    uuid: 881c2728-f294-539e-adec-7d4b7201c751
-  - name: 🇬🇧_GB_英国
-    port: 6870
-    server: 51.13.182.236
-    type: ss
-    udp: true
-    password: M7x1mGNOwhPiRB9jSxZJNy
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_10
-    port: 9003
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: JdmRK9gMEqFgs8nP
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_11
-    port: 9094
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: rpgbNnU9rDDU4aWZ
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_12
     port: 9056
     server: 217.30.10.18
     type: ss
     udp: true
     password: rNBfNuuANFCAk7KB
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_5
-    port: 443
-    server: 34.219.132.251
+  - name: 🇺🇸_US_美国_7
+    port: 5500
+    server: 38.114.114.77
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_6
-    port: 443
-    server: 34.213.242.165
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯_7
+    port: 9041
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: amazonskr05
+    password: U6qnYRhfyDmn8sgn
     cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_8
+    port: 9088
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: f8npKgNzdkss2ytn
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_9
+    port: 36641
+    server: 195.58.49.42
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: /
+    cipher: auto
+    uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
+    alterId: 0
+  - name: 🇺🇸_US_美国_8
+    port: 80
+    server: cloud2.xmsvx.com
+    type: vless
+    network: ws
+    udp: true
+    servername: afc.fi
+    ws-opts:
+      path: /AfkNFgg?ed=2048
+      headers:
+        host: afc.fi
+    uuid: 4d8426b2-0af1-4eb5-a231-b62152d7b9b9
+  - name: 🇬🇧_GB_英国_2
+    port: 6870
+    server: 51.13.182.236
+    type: ss
+    udp: true
+    password: M7x1mGNOwhPiRB9jSxZJNy
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇧🇪_BE_比利时
+    port: 80
+    server: NS1.ClouDfLARE.COM
+    type: vless
+    network: ws
+    udp: true
+    servername: knOtNrmV2rayOtanOtrmNnOtenOtl.terminal-kaneop-none.SARBAZIT.COM
+    ws-opts:
+      path: /
+      headers:
+        host: knOtNrmV2rayOtanOtrmNnOtenOtl.terminal-kaneop-none.SARBAZIT.COM
+    uuid: 84a85f2c-8b8c-433f-94bb-e8f77e75cc45
