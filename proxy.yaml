@@ -1,256 +1,281 @@
 proxies:
-  - name: 🇩🇪_DE_德国_1
-    port: 34742
-    server: 91.107.187.80
+  - name: 剩余流量：1000 GB
+    port: 11221
+    server: 8.217.51.242
+    type: hysteria2
+    udp: true
+    sni: apple.com
+    password: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    skip-cert-verify: true
+  - name: 套餐到期：2025-02-09
+    port: 11221
+    server: 8.217.51.242
+    type: hysteria2
+    udp: true
+    sni: apple.com
+    password: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    skip-cert-verify: true
+  - name: 香港 01 解锁|1.0x
+    port: 11221
+    server: 8.217.51.242
+    type: hysteria2
+    udp: true
+    sni: apple.com
+    password: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    skip-cert-verify: true
+  - name: 香港 02 解锁|1.0x
+    port: 10000
+    server: 8.218.213.13
     type: vless
     network: tcp
     udp: true
-    uuid: 6adfc877-93cf-4ea3-b2c4-a3fff0b692b7
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 9018
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: fG2artUmHfNT2cX7
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 14585
-    server: 45.8.158.32
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    cipher: auto
-    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-    alterId: 0
-    fingerprint: ""
-  - name: 🇩🇪_DE_德国_2
-    port: 443
-    server: 185.77.217.121
-    type: ss
-    udp: true
-    password: X7eoEBrARWsBUiVfchVEdH
-    cipher: chacha20-ietf-poly1305
-  - name: 🇬🇧_GB_英国_1
-    port: 3089
-    server: 51.13.182.231
-    type: ss
-    udp: true
-    password: J0lgxy4mb52CIJ8UUcEgts
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-    port: 23393
-    server: 95.142.37.48
-    type: vless
-    network: tcp
-    udp: true
-    uuid: 72996cf0-59da-4c97-8acd-4fdaf0c49407
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 9064
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: cp8pRSUAyLhTfVWH
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_1
-    port: 80
-    server: 151.101.130.216
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /?ed=8080
-      headers:
-        host: marzneshinnetherland.com.au
-    uuid: 2bee1f5e-b3d8-5e59-3657-ea1c18723661
-  - name: 🇮🇳_IN_印度->🇺🇸_US_美国
-    port: 80
-    server: 151.101.158.204
-    type: vless
-    network: ws
-    udp: true
-    servername: zmaoz.faculty.ucdavis.edu.
-    ws-opts:
-      path: /olem/ws?ed=64
-      headers:
-        host: fatmelo.com
-    uuid: 3a67aaab-515e-4079-a518-d00cb5e6b20e
+    servername: apple.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
+      short-id: 155b37d2
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    flow: xtls-rprx-vision
     client-fingerprint: chrome
-  - name: 🇺🇸_US_美国_2
-    port: 80
-    server: 151.101.0.223
+  - name: 日本 01 解锁|1.0x
+    port: 10000
+    server: 13.231.141.124
     type: vless
-    network: ws
-    udp: true
-    servername: faculty.ucdavis.edu
-    ws-opts:
-      path: /--@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY?ed=2560
-      headers:
-        host: tg.ELiV2RaY.ir
-    uuid: ee01027e-e413-575a-8a5f-ba8ba569eb8b
-    client-fingerprint: qq
-  - name: 🇺🇸_US_美国_3
-    port: 80
-    server: 151.101.66.216
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /?ed=8080
-      headers:
-        host: marzneshinnetherland.com.au
-    uuid: 2bee1f5e-b3d8-5e59-3657-ea1c18723661
-  - name: 🇩🇪_DE_德国_3
-    port: 443
-    server: 65.21.153.186
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: 5h4.golabkashaniz.info
-    uuid: 95089f63-c732-4594-bfcb-c8180bd09a1c
-  - name: 🇺🇸_US_美国_4
-    port: 7306
-    server: 38.110.1.122
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_4
-    port: 9094
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: rpgbNnU9rDDU4aWZ
-    cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-    port: 25230
-    server: cm1.awslcn.info
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cm1.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
-  - name: 🇷🇺_RU_俄罗斯_5
-    port: 9038
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: gYCYXfkUQEs2TaJQ
-    cipher: aes-256-cfb
-  - name: 🇯🇵_JP_日本->🇺🇸_US_美国
-    port: 443
-    server: us01.trojanyyds.xyz
-    type: trojan
-    udp: true
-    password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  - name: 🇩🇪_DE_德国->🇺🇸_US_美国
-    port: 22222
-    server: 3.126.218.145
-    type: trojan
     network: tcp
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    alpn:
-      - http/1.1
-  - name: 🇺🇸_US_美国_5
-    port: 443
-    server: 77.83.246.74
-    type: ss
-    udp: true
-    password: l6hXyMxi034TRntxgeF4tf
-    cipher: chacha20-ietf-poly1305
-  - name: 🇯🇵_JP_日本->🇳🇱_NL_荷兰
-    port: 443
-    server: jp.lydurlclub.top
-    type: trojan
-    udp: true
-    password: c4843eba-b070-403f-b43f-ef1ef7db571e
+    servername: apple.com
     skip-cert-verify: true
-  - name: 🇺🇸_US_美国_6
-    port: 8090
-    server: 38.110.1.122
-    type: ss
+    reality-opts:
+      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
+      short-id: 155b37d2
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 日本 02 解锁|1.0x
+    port: 10000
+    server: 54.250.87.185
+    type: vless
+    network: tcp
     udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_6
-    port: 9056
-    server: 217.30.10.18
-    type: ss
+    servername: apple.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
+      short-id: 155b37d2
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 日本 03 解锁|1.0x
+    port: 10000
+    server: 54.199.121.245
+    type: vless
+    network: tcp
     udp: true
-    password: rNBfNuuANFCAk7KB
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_7
-    port: 5500
-    server: 38.114.114.77
-    type: ss
+    servername: apple.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
+      short-id: 155b37d2
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 日本 04 解锁|1.0x
+    port: 10000
+    server: 18.183.32.68
+    type: vless
+    network: tcp
     udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_7
-    port: 9041
-    server: 217.30.10.18
-    type: ss
+    servername: apple.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
+      short-id: 155b37d2
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 新加坡 01 解锁|1.0x
+    port: 10000
+    server: 122.248.224.109
+    type: vless
+    network: tcp
     udp: true
-    password: U6qnYRhfyDmn8sgn
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_8
-    port: 9088
-    server: 217.30.10.18
-    type: ss
+    servername: apple.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
+      short-id: 155b37d2
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 新加坡 02 解锁|1.0x
+    port: 10000
+    server: 54.169.136.28
+    type: vless
+    network: tcp
     udp: true
-    password: f8npKgNzdkss2ytn
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_9
-    port: 36641
-    server: 195.58.49.42
+    servername: apple.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
+      short-id: 155b37d2
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 新加坡 03 解锁|1.0x
+    port: 10000
+    server: 13.229.125.144
+    type: vless
+    network: tcp
+    udp: true
+    servername: apple.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
+      short-id: 155b37d2
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 香港 02 解锁|80端口|1.0x
+    port: 80
+    server: 8.218.213.13
     type: vmess
     network: ws
+    tls: false
     udp: true
+    version: "2"
+    skip-cert-verify: true
     ws-opts:
-      path: /
+      path: /path
+      headers:
+        host: apple.com
     cipher: auto
-    uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
     alterId: 0
-  - name: 🇺🇸_US_美国_8
+  - name: 香港 03 解锁|80端口|1.0x
     port: 80
-    server: cloud2.xmsvx.com
-    type: vless
+    server: 47.238.137.136
+    type: vmess
     network: ws
+    tls: false
     udp: true
-    servername: afc.fi
-    ws-opts:
-      path: /AfkNFgg?ed=2048
-      headers:
-        host: afc.fi
-    uuid: 4d8426b2-0af1-4eb5-a231-b62152d7b9b9
-  - name: 🇬🇧_GB_英国_2
-    port: 6870
-    server: 51.13.182.236
-    type: ss
-    udp: true
-    password: M7x1mGNOwhPiRB9jSxZJNy
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国->🇧🇪_BE_比利时
-    port: 80
-    server: NS1.ClouDfLARE.COM
-    type: vless
-    network: ws
-    udp: true
-    servername: knOtNrmV2rayOtanOtrmNnOtenOtl.terminal-kaneop-none.SARBAZIT.COM
+    version: "2"
+    skip-cert-verify: true
     ws-opts:
       path: /
       headers:
-        host: knOtNrmV2rayOtanOtrmNnOtenOtl.terminal-kaneop-none.SARBAZIT.COM
-    uuid: 84a85f2c-8b8c-433f-94bb-e8f77e75cc45
+        host: apple.com
+    cipher: auto
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    alterId: 0
+  - name: 日本 01 解锁|80端口|1.0x
+    port: 80
+    server: 13.231.141.124
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: apple.com
+    cipher: auto
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    alterId: 0
+  - name: 日本 03 解锁|80端口|1.0x
+    port: 80
+    server: 54.199.121.245
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: apple.com
+    cipher: auto
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    alterId: 0
+  - name: 新加坡 01 解锁|80端口|1.0x
+    port: 80
+    server: 122.248.224.109
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: apple.com
+    cipher: auto
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    alterId: 0
+  - name: 新加坡 02 （gw.alicdn.com）
+    port: 80
+    server: 54.169.136.28
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: gw.alicdn.com
+    cipher: auto
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    alterId: 0
+  - name: 新加坡 04（tms.dingtalk.com）
+    port: 80
+    server: 47.245.87.58
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: tms.dingtalk.com
+    cipher: auto
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    alterId: 0
+  - name: 美国 01 解锁|80端口|1.0x
+    port: 80
+    server: 47.251.66.27
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: apple.com
+    cipher: auto
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    alterId: 0
+  - name: 免流测试80(默认:m.youku.com)
+    port: 80
+    server: 47.74.19.104
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: m.youku.com
+    cipher: auto
+    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    alterId: 0
