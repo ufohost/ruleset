@@ -1,143 +1,7 @@
 proxies:
   - name: 剩余流量：1000 GB
-    port: 11221
-    server: 8.217.51.242
-    type: hysteria2
-    udp: true
-    sni: apple.com
-    password: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    skip-cert-verify: true
-  - name: 套餐到期：2025-02-09
-    port: 11221
-    server: 8.217.51.242
-    type: hysteria2
-    udp: true
-    sni: apple.com
-    password: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    skip-cert-verify: true
-  - name: 香港 01 解锁|1.0x
-    port: 11221
-    server: 8.217.51.242
-    type: hysteria2
-    udp: true
-    sni: apple.com
-    password: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    skip-cert-verify: true
-  - name: 香港 02 解锁|1.0x
-    port: 10000
-    server: 8.218.213.13
-    type: vless
-    network: tcp
-    udp: true
-    servername: apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
-      short-id: 155b37d2
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 日本 01 解锁|1.0x
-    port: 10000
-    server: 13.231.141.124
-    type: vless
-    network: tcp
-    udp: true
-    servername: apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
-      short-id: 155b37d2
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 日本 02 解锁|1.0x
-    port: 10000
-    server: 54.250.87.185
-    type: vless
-    network: tcp
-    udp: true
-    servername: apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
-      short-id: 155b37d2
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 日本 03 解锁|1.0x
-    port: 10000
-    server: 54.199.121.245
-    type: vless
-    network: tcp
-    udp: true
-    servername: apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
-      short-id: 155b37d2
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 日本 04 解锁|1.0x
-    port: 10000
-    server: 18.183.32.68
-    type: vless
-    network: tcp
-    udp: true
-    servername: apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
-      short-id: 155b37d2
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 新加坡 01 解锁|1.0x
-    port: 10000
-    server: 122.248.224.109
-    type: vless
-    network: tcp
-    udp: true
-    servername: apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
-      short-id: 155b37d2
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 新加坡 02 解锁|1.0x
-    port: 10000
-    server: 54.169.136.28
-    type: vless
-    network: tcp
-    udp: true
-    servername: apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
-      short-id: 155b37d2
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 新加坡 03 解锁|1.0x
-    port: 10000
-    server: 13.229.125.144
-    type: vless
-    network: tcp
-    udp: true
-    servername: apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: xCUqnTXLBXrFGxHD0Bjak03ojvXmORrytznaW87QiRY
-      short-id: 155b37d2
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 香港 02 解锁|80端口|1.0x
-    port: 80
-    server: 8.218.213.13
+    port: 27681
+    server: 5.39.252.204
     type: vmess
     network: ws
     tls: false
@@ -145,15 +9,15 @@ proxies:
     version: "2"
     skip-cert-verify: true
     ws-opts:
-      path: /path
+      path: ""
       headers:
-        host: apple.com
+        host: ""
     cipher: auto
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
     alterId: 0
-  - name: 香港 03 解锁|80端口|1.0x
-    port: 80
-    server: 47.238.137.136
+  - name: 距离下次重置剩余：21 天
+    port: 27681
+    server: 5.39.252.204
     type: vmess
     network: ws
     tls: false
@@ -161,15 +25,15 @@ proxies:
     version: "2"
     skip-cert-verify: true
     ws-opts:
-      path: /
+      path: ""
       headers:
-        host: apple.com
+        host: ""
     cipher: auto
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
     alterId: 0
-  - name: 日本 01 解锁|80端口|1.0x
-    port: 80
-    server: 13.231.141.124
+  - name: 套餐到期：2025-02-10
+    port: 27681
+    server: 5.39.252.204
     type: vmess
     network: ws
     tls: false
@@ -177,15 +41,15 @@ proxies:
     version: "2"
     skip-cert-verify: true
     ws-opts:
-      path: /
+      path: ""
       headers:
-        host: apple.com
+        host: ""
     cipher: auto
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
     alterId: 0
-  - name: 日本 03 解锁|80端口|1.0x
-    port: 80
-    server: 54.199.121.245
+  - name: 过滤掉17条线路
+    port: 27681
+    server: 5.39.252.204
     type: vmess
     network: ws
     tls: false
@@ -193,15 +57,15 @@ proxies:
     version: "2"
     skip-cert-verify: true
     ws-opts:
-      path: /
+      path: ""
       headers:
-        host: apple.com
+        host: ""
     cipher: auto
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
     alterId: 0
-  - name: 新加坡 01 解锁|80端口|1.0x
-    port: 80
-    server: 122.248.224.109
+  - name: 德国-法兰克福-001
+    port: 27681
+    server: 5.39.252.204
     type: vmess
     network: ws
     tls: false
@@ -209,15 +73,15 @@ proxies:
     version: "2"
     skip-cert-verify: true
     ws-opts:
-      path: /
+      path: ""
       headers:
-        host: apple.com
+        host: ""
     cipher: auto
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
     alterId: 0
-  - name: 新加坡 02 （gw.alicdn.com）
-    port: 80
-    server: 54.169.136.28
+  - name: 中国-香港-005
+    port: 27681
+    server: 212.192.12.70
     type: vmess
     network: ws
     tls: false
@@ -225,15 +89,15 @@ proxies:
     version: "2"
     skip-cert-verify: true
     ws-opts:
-      path: /
+      path: ""
       headers:
-        host: gw.alicdn.com
+        host: ""
     cipher: auto
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
     alterId: 0
-  - name: 新加坡 04（tms.dingtalk.com）
-    port: 80
-    server: 47.245.87.58
+  - name: 俄罗斯-圣彼得堡-016
+    port: 27681
+    server: 194.87.69.50
     type: vmess
     network: ws
     tls: false
@@ -241,15 +105,15 @@ proxies:
     version: "2"
     skip-cert-verify: true
     ws-opts:
-      path: /
+      path: ""
       headers:
-        host: tms.dingtalk.com
+        host: ""
     cipher: auto
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
     alterId: 0
-  - name: 美国 01 解锁|80端口|1.0x
-    port: 80
-    server: 47.251.66.27
+  - name: 俄罗斯-圣彼得堡-015
+    port: 27681
+    server: 195.58.49.42
     type: vmess
     network: ws
     tls: false
@@ -257,15 +121,15 @@ proxies:
     version: "2"
     skip-cert-verify: true
     ws-opts:
-      path: /
+      path: ""
       headers:
-        host: apple.com
+        host: ""
     cipher: auto
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
     alterId: 0
-  - name: 免流测试80(默认:m.youku.com)
-    port: 80
-    server: 47.74.19.104
+  - name: 俄罗斯-圣彼得堡-014
+    port: 27681
+    server: 195.58.49.50
     type: vmess
     network: ws
     tls: false
@@ -273,9 +137,234 @@ proxies:
     version: "2"
     skip-cert-verify: true
     ws-opts:
-      path: /
+      path: ""
       headers:
-        host: m.youku.com
+        host: ""
     cipher: auto
-    uuid: 958f591f-f03b-4ae2-a1e8-79a7cde6d4b7
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 俄罗斯-圣彼得堡-013
+    port: 27681
+    server: 194.87.69.52
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 俄罗斯-圣彼得堡-012
+    port: 27681
+    server: 195.58.49.86
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 俄罗斯-圣彼得堡-011
+    port: 27681
+    server: 194.87.68.115
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 俄罗斯-圣彼得堡-006
+    port: 27681
+    server: 195.58.49.152
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 俄罗斯-圣彼得堡-007
+    port: 27681
+    server: 176.32.39.181
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 俄罗斯-圣彼得堡-008
+    port: 27681
+    server: 194.87.69.244
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 俄罗斯-圣彼得堡-009
+    port: 21359
+    server: 194.87.69.56
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 俄罗斯-圣彼得堡-010
+    port: 27681
+    server: 194.87.68.228
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 中国-香港-002
+    port: 32902
+    server: 212.192.15.239
+    type: vless
+    network: ws
+    udp: true
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+  - name: 中国-香港-003
+    port: 6814
+    server: 212.192.13.179
+    type: vless
+    network: ws
+    udp: true
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+  - name: 中国-香港-VL-003
+    port: 28153
+    server: 212.192.13.179
+    type: vless
+    network: ws
+    udp: true
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+  - name: 中国-香港-004
+    port: 6814
+    server: 212.192.13.51
+    type: vless
+    network: ws
+    udp: true
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+  - name: 中国-香港-VL-004
+    port: 28153
+    server: 212.192.13.51
+    type: vless
+    network: ws
+    udp: true
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+  - name: 美国-纽约-001
+    port: 6814
+    server: 207.90.237.199
+    type: vless
+    network: ws
+    udp: true
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+  - name: 美国-纽约-VL-001
+    port: 28153
+    server: 207.90.237.199
+    type: vless
+    network: ws
+    udp: true
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+  - name: 美国-芝加哥-001
+    port: 27681
+    server: 166.88.159.225
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 瑞士-日内瓦-001
+    port: 27681
+    server: 194.87.18.248
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
+    alterId: 0
+  - name: 加拿大-多伦多-001
+    port: 27681
+    server: 141.195.112.167
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 30d83dc1-f37c-4661-a1ec-45ac664cecb0
     alterId: 0
