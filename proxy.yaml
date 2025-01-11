@@ -1,490 +1,446 @@
 proxies:
-  - name: 剩余流量：100 GB
-    port: 443
-    server: 8.8.8.8
+  - name: GLaDOS-B1-01
     type: ss
-    udp: true
-    password: 020a8cbe-3f99-4486-9891-2a334e19c6d5
+    server: e2f6745.b1.glados-config.com
+    port: 2377
+    udp: false
     cipher: chacha20-ietf-poly1305
-  - name: 距离下次重置剩余：21 天
-    port: 443
-    server: 8.8.8.8
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.md:88964
+  - name: GLaDOS-B1-02
     type: ss
-    udp: true
-    password: 020a8cbe-3f99-4486-9891-2a334e19c6d5
+    server: e2f6745.b2.glados-config.com
+    port: 2377
+    udp: false
     cipher: chacha20-ietf-poly1305
-  - name: 套餐到期：2139-02-09
-    port: 443
-    server: 8.8.8.8
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.dk:88964
+  - name: GLaDOS-B1-03
     type: ss
-    udp: true
-    password: 020a8cbe-3f99-4486-9891-2a334e19c6d5
+    server: e2f6745.b3.glados-config.com
+    port: 2377
+    udp: false
     cipher: chacha20-ietf-poly1305
-  - name: 过滤掉17条线路
-    port: 443
-    server: 8.8.8.8
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.cz:88964
+  - name: GLaDOS-B1-04
     type: ss
-    udp: true
-    password: 020a8cbe-3f99-4486-9891-2a334e19c6d5
+    server: e2f6745.b4.glados-config.com
+    port: 2377
+    udp: false
     cipher: chacha20-ietf-poly1305
-  - name: 如果订阅后仅有此节点请查看教程
-    port: 443
-    server: 8.8.8.8
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.lv:88964
+  - name: GLaDOS-B1-05
     type: ss
-    udp: true
-    password: 020a8cbe-3f99-4486-9891-2a334e19c6d5
+    server: e2f6745.b5.glados-config.com
+    port: 2377
+    udp: false
     cipher: chacha20-ietf-poly1305
-  - name: 官网 pandafly.site
-    port: 443
-    server: 8.8.8.8
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.cat:88964
+  - name: GLaDOS-B1-06
     type: ss
-    udp: true
-    password: 020a8cbe-3f99-4486-9891-2a334e19c6d5
+    server: e2f6745.b6.glados-config.com
+    port: 2377
+    udp: false
     cipher: chacha20-ietf-poly1305
-  - name: 俄罗斯01
-    port: 38879
-    server: asge5236.pandafly.site
-    type: vless
-    network: tcp
-    udp: true
-    servername: yandex.com
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.de:88964
+  - name: GLaDOS-B1-07
+    type: ss
+    server: e2f6745.b7.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.it:88964
+  - name: GLaDOS-B1-08
+    type: ss
+    server: e2f6745.b8.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.net:88964
+  - name: GLaDOS-B1-09
+    type: ss
+    server: e2f6745.b9.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.it:88964
+  - name: GLaDOS-US-01
+    type: ss
+    server: e2f6745.u1.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.hu:88964
+  - name: GLaDOS-US-02
+    type: ss
+    server: e2f6745.u2.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.com:88964
+  - name: GLaDOS-US-03
+    type: ss
+    server: e2f6745.u3.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.es:88964
+  - name: GLaDOS-US-04
+    type: ss
+    server: e2f6745.u4.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.it:88964
+  - name: GLaDOS-US-05
+    type: ss
+    server: e2f6745.u5.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.is:88964
+  - name: GLaDOS-US-06
+    type: ss
+    server: e2f6745.u6.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.is:88964
+  - name: GLaDOS-JP-01
+    type: ss
+    server: e2f6745.j1.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.it:88964
+  - name: GLaDOS-JP-02
+    type: ss
+    server: e2f6745.j2.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.lv:88964
+  - name: GLaDOS-JP-03
+    type: ss
+    server: e2f6745.j3.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.net:88964
+  - name: GLaDOS-TW-01
+    type: ss
+    server: e2f6745.t1.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.it:88964
+  - name: GLaDOS-TW-02
+    type: ss
+    server: e2f6745.t2.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.de:88964
+  - name: GLaDOS-TW-03
+    type: ss
+    server: e2f6745.t3.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.eu:88964
+  - name: GLaDOS-TW-04
+    type: ss
+    server: e2f6745.t4.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.com:88964
+  - name: GLaDOS-TW-05
+    type: ss
+    server: e2f6745.t5.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.lv:88964
+  - name: GLaDOS-TW-06
+    type: ss
+    server: e2f6745.t6.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.ge:88964
+  - name: GLaDOS-SG-01
+    type: ss
+    server: e2f6745.s1.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.it:88964
+  - name: GLaDOS-SG-02
+    type: ss
+    server: e2f6745.s2.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.net:88964
+  - name: GLaDOS-SG-03
+    type: ss
+    server: e2f6745.s3.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.fi:88964
+  - name: GLaDOS-HK-01
+    type: ss
+    server: e2f6745.h1.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.net:88964
+  - name: GLaDOS-HK-02
+    type: ss
+    server: e2f6745.h2.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.md:88964
+  - name: GLaDOS-HK-03
+    type: ss
+    server: e2f6745.h3.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.es:88964
+  - name: GLaDOS-UK-01
+    type: ss
+    server: e2f6745.e1.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.is:88964
+  - name: GLaDOS-UK-02
+    type: ss
+    server: e2f6745.e2.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.cz:88964
+  - name: GLaDOS-UK-03
+    type: ss
+    server: e2f6745.e3.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.it:88964
+  - name: GLaDOS-D1-01
+    type: ss
+    server: e2f6745.da.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.com:88964
+  - name: GLaDOS-D1-02
+    type: ss
+    server: e2f6745.db.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.net:88964
+  - name: GLaDOS-D1-03
+    type: ss
+    server: e2f6745.dc.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.microsoft.de:88964
+  - name: GLaDOS-S2-01
+    type: ss
+    server: e2f6745.f1.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.epicgames.com.net:88964
+  - name: GLaDOS-S2-02
+    type: ss
+    server: e2f6745.f2.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.be.net:88964
+  - name: GLaDOS-S2-03
+    type: ss
+    server: e2f6745.f3.glados-config.com
+    port: 2377
+    udp: false
+    cipher: chacha20-ietf-poly1305
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: e2f6745.dl.nintendo.eu.net:88964
+  - name: GLaDOS-N2-01
+    type: hysteria2
+    server: e2f6745.pa.gladns.com
+    port: 3074
+    password: NTc2MTYwOjg4OTY0OjMzODFlZmY4MzQzZGM1NDQ=
+    fast-open: false
+    sni: n2.gladns.com
     skip-cert-verify: true
-    reality-opts:
-      public-key: kPJX_HdbmKlOoOWFuGqQzLCfFc5yzjh5DMd-jnuifg4
-      short-id: 8bfd406f
-    uuid: 020a8cbe-3f99-4486-9891-2a334e19c6d5
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 俄罗斯02
-    port: 35597
-    server: 46.17.44.136
-    type: vless
-    network: tcp
-    udp: true
-    servername: yandex.com
+  - name: GLaDOS-N2-02
+    type: hysteria2
+    server: e2f6745.pb.gladns.com
+    port: 3074
+    password: NTc2MTYwOjg4OTY0OjMzODFlZmY4MzQzZGM1NDQ=
+    fast-open: false
+    sni: n2.gladns.com
     skip-cert-verify: true
-    reality-opts:
-      public-key: kPJX_HdbmKlOoOWFuGqQzLCfFc5yzjh5DMd-jnuifg4
-      short-id: 8bfd406f
-    uuid: 020a8cbe-3f99-4486-9891-2a334e19c6d5
-    flow: xtls-rprx-vision
-    client-fingerprint: ios
-  - name: 德国
-    port: 35590
-    server: asge5236.pandafly.site
-    type: vless
-    network: tcp
-    udp: true
-    servername: yandex.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: kPJX_HdbmKlOoOWFuGqQzLCfFc5yzjh5DMd-jnuifg4
-      short-id: 8bfd406f
-    uuid: 020a8cbe-3f99-4486-9891-2a334e19c6d5
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 英国
-    port: 35591
-    server: asge5236.pandafly.site
-    type: vless
-    network: tcp
-    udp: true
-    servername: yandex.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: kPJX_HdbmKlOoOWFuGqQzLCfFc5yzjh5DMd-jnuifg4
-      short-id: 8bfd406f
-    uuid: 020a8cbe-3f99-4486-9891-2a334e19c6d5
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-  - name: 法国
-    port: 35592
-    server: asge5236.pandafly.site
-    type: vless
-    network: tcp
-    udp: true
-    servername: yandex.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: kPJX_HdbmKlOoOWFuGqQzLCfFc5yzjh5DMd-jnuifg4
-      short-id: 8bfd406f
-    uuid: 020a8cbe-3f99-4486-9891-2a334e19c6d5
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-  - name: 土耳其
-    port: 35593
-    server: asge5236.pandafly.site
-    type: vless
-    network: tcp
-    udp: true
-    servername: yandex.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: kPJX_HdbmKlOoOWFuGqQzLCfFc5yzjh5DMd-jnuifg4
-      short-id: 8bfd406f
-    uuid: 020a8cbe-3f99-4486-9891-2a334e19c6d5
-    flow: xtls-rprx-vision
-    client-fingerprint: safari
-  - name: 尼日利亚
-    port: 35594
-    server: asge5236.pandafly.site
-    type: vless
-    network: tcp
-    udp: true
-    servername: yandex.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: kPJX_HdbmKlOoOWFuGqQzLCfFc5yzjh5DMd-jnuifg4
-      short-id: 8bfd406f
-    uuid: 020a8cbe-3f99-4486-9891-2a334e19c6d5
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-  - name: 印度
-    port: 35595
-    server: asge5236.pandafly.site
-    type: vless
-    network: tcp
-    udp: true
-    servername: yandex.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: kPJX_HdbmKlOoOWFuGqQzLCfFc5yzjh5DMd-jnuifg4
-      short-id: 8bfd406f
-    uuid: 020a8cbe-3f99-4486-9891-2a334e19c6d5
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 埃及
-    port: 35597
-    server: asge5236.pandafly.site
-    type: vless
-    network: tcp
-    udp: true
-    servername: yandex.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: kPJX_HdbmKlOoOWFuGqQzLCfFc5yzjh5DMd-jnuifg4
-      short-id: 8bfd406f
-    uuid: 020a8cbe-3f99-4486-9891-2a334e19c6d5
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-
-  - name: 剩余流量：150 GB
-    port: 8080
-    server: vip1.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: xjp.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: 距离下次重置剩余：21 天
-    port: 8080
-    server: vip1.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: xjp.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: 套餐到期：2025-02-10
-    port: 8080
-    server: vip1.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: xjp.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: 官网 pmy666.xyz
-    port: 8080
-    server: vip1.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: xjp.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: SG新加坡1
-    port: 8080
-    server: vip1.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: xjp.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: SG新加坡2
-    port: 8080
-    server: vip2.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: xjp.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: SG新加坡3
-    port: 8080
-    server: vip3.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: xjp.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: SG新加坡4
-    port: 8080
-    server: vip4.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: xjp.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: US美国1
-    port: 8080
-    server: vip1.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: domg.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: US美国2
-    port: 8080
-    server: vip2.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: domg.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: US美国3
-    port: 8080
-    server: vip3.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: domg.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: US美国4
-    port: 8080
-    server: vip4.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: domg.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: IN印度1
-    port: 8080
-    server: vip1.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: doyd.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: IN印度2
-    port: 8080
-    server: vip2.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: doyd.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: IN印度3
-    port: 8080
-    server: vip3.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: doyd.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: IN印度4
-    port: 8080
-    server: vip4.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: doyd.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: GB英国1
-    port: 8080
-    server: vip1.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: doyg.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: GB英国2
-    port: 8080
-    server: vip2.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: doyg.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: GB英国3
-    port: 8080
-    server: vip3.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: doyg.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
-  - name: GB英国4
-    port: 8080
-    server: vip4.pmy666.xyz
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: doyg.pmy666.xyz
-    cipher: auto
-    uuid: 6e5a7dad-4cf6-4f38-8d87-a6b2a490362f
-    alterId: 0
