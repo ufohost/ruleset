@@ -1,232 +1,146 @@
 proxies:
-  - name: 剩余流量：30 GB
-    port: 46601
-    server: xg-jd.huidu51.com
+  - name: 🇬🇧_GB_英国_1
+    port: 443
+    server: 78.129.140.11
     type: ss
     udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
+    password: CDRR5RckFavHXOhoFtFsDQ
     cipher: chacha20-ietf-poly1305
-  - name: 距离下次重置剩余：1 天
-    port: 46601
-    server: xg-jd.huidu51.com
+  - name: 🇺🇸_US_美国_1
+    port: 2082
+    server: 64.225.109.206
+    type: vmess
+    network: http
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    http-opts: {}
+    cipher: auto
+    uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+    alterId: 0
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+    port: 21019
+    server: 219.135.231.205
+    type: trojan
+    udp: true
+    password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
+    skip-cert-verify: true
+  - name: 🇮🇳_IN_印度->🇷🇺_RU_俄罗斯
+    port: 80
+    server: 14.102.229.179
+    type: vless
+    network: ws
+    udp: true
+    ws-opts:
+      path: /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048
+      headers:
+        host: Www.speedtest.net.sPeedtest2.sbs.
+    uuid: d5af833f-9be5-4d70-aba2-a66c21d87cec
+  - name: 🇬🇧_GB_英国_2
+    port: 25385
+    server: 5.39.254.196
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: /
+      headers:
+        host: 5.39.254.196
+    cipher: auto
+    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+    alterId: 0
+  - name: 🇩🇰_DK_丹麦
+    port: 989
+    server: 185.186.79.53
     type: ss
     udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 套餐到期：2025-01-26
-    port: 46601
-    server: xg-jd.huidu51.com
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇮🇹_IT_意大利
+    port: 44884
+    server: 178.255.222.25
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 51f449e3-c5ad-42e0-bd2e-16f4edcc856e
+  - name: 🇮🇷_IR_伊朗
+    port: 80
+    server: 94.182.150.230
+    type: vmess
+    network: tcp
+    udp: true
+    cipher: auto
+    uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
+    alterId: 0
+  - name: 🇸🇰_SK_斯洛伐克
+    port: 989
+    server: 156.146.40.194
     type: ss
     udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇭🇰 Hong Kong 1
-    port: 46601
-    server: xg-jd.huidu51.com
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_2
+    port: 2086
+    server: 190.93.245.230
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: /
+      headers:
+        host: shs.xiaoqi666.xyz
+    cipher: auto
+    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+    alterId: 0
+  - name: 🇨🇦_CA_加拿大->🇺🇸_US_美国
+    port: 443
+    server: neutral-magpie.treefrog761.one
+    type: trojan
+    udp: true
+    sni: neutral-magpie.treefrog761.one
+    password: "3763495982449565696"
+    skip-cert-verify: true
+  - name: 🇺🇸_US_美国_3
+    port: 22222
+    server: 13.42.221.30
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+    port: 25230
+    server: cm1.awslcn.info
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: cm1.awslcn.info
+    cipher: auto
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    alterId: 0
+  - name: 🇺🇸_US_美国_4
+    port: 443
+    server: measured-moth.treefrog761.one
+    type: trojan
+    udp: true
+    sni: measured-moth.treefrog761.one
+    password: "3763495982449565696"
+    skip-cert-verify: true
+  - name: 🇰🇷_KR_韩国
+    port: 989
+    server: 154.223.16.212
     type: ss
     udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇭🇰 Hong Kong 2
-    port: 46602
-    server: xg-jd.huidu51.com
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇷🇴_RO_罗马尼亚
+    port: 989
+    server: 188.214.36.155
     type: ss
     udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇭🇰 Hong Kong 3
-    port: 46603
-    server: xg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇭🇰 Hong Kong 4
-    port: 46604
-    server: xg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇭🇰 Hong Kong 5
-    port: 46605
-    server: xg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇭🇰 Hong Kong 6
-    port: 46606
-    server: xg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇭🇰 Hong Kong 7
-    port: 46607
-    server: xg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇭🇰 Hong Kong 8
-    port: 46608
-    server: xg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇸🇬  Singapore 9
-    port: 46609
-    server: xjp-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇸🇬  Singapore 10
-    port: 46610
-    server: xjp-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇸🇬  Singapore 11
-    port: 46611
-    server: xjp-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇸🇬  Singapore 12
-    port: 46612
-    server: xjp-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇸🇬  Singapore 13
-    port: 46613
-    server: xjp-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇸🇬  Singapore 14
-    port: 46614
-    server: xjp-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇯🇵   Japan 15
-    port: 46615
-    server: rb-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇯🇵   Japan 16
-    port: 46616
-    server: rb-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇯🇵  Japan 17
-    port: 46617
-    server: rb-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇯🇵   Japan 18
-    port: 46618
-    server: rb-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇯🇵   Japan 19
-    port: 46619
-    server: rb-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇯🇵   Japan 20
-    port: 46620
-    server: rb-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸   USA 21
-    port: 46621
-    server: mg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸  USA 22
-    port: 46622
-    server: mg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸  USA 23
-    port: 46623
-    server: mg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸  USA 24
-    port: 46624
-    server: mg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸  USA 25
-    port: 46625
-    server: mg-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇹🇼 Taiwan 26
-    port: 46626
-    server: tw-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇹🇼 Taiwan 27
-    port: 46627
-    server: tw-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇹🇼 Taiwan 28
-    port: 46628
-    server: tw-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇹🇼 Taiwan 29
-    port: 46629
-    server: tw-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
-  - name: 🇹🇼 Taiwan 30
-    port: 46630
-    server: tw-jd.huidu51.com
-    type: ss
-    udp: true
-    password: f3f4e191-7e03-4536-8037-15a3aad410a0
-    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
