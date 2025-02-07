@@ -1,4 +1,264 @@
 proxies:
+  - name: 剩余流量：100 GB
+    port: 11530
+    server: iepl.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 套餐到期：2025-03-07
+    port: 11530
+    server: iepl.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇭🇰香港01
+    port: 11530
+    server: iepl.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇭🇰香港02
+    port: 11530
+    server: iepl.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇭🇰香港03
+    port: 11530
+    server: iepl.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇭🇰香港04
+    port: 34974
+    server: jsyd.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇭🇰香港05
+    port: 34974
+    server: jsyd.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇭🇰香港06
+    port: 34974
+    server: jsyd.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇭🇰香港07
+    port: 40550
+    server: dbzf.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇭🇰香港08
+    port: 40550
+    server: dbzf.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇭🇰香港09
+    port: 40550
+    server: dbzf.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇯🇵日本01
+    port: 56840
+    server: iepl.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇯🇵日本02
+    port: 49872
+    server: jsyd.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇯🇵日本03
+    port: 36399
+    server: dbzf.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇨🇳台湾01
+    port: 40284
+    server: iepl.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇨🇳台湾02
+    port: 40154
+    server: jsyd.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇨🇳台湾03
+    port: 44706
+    server: dbzf.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇸🇬新加坡01
+    port: 48234
+    server: iepl.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇸🇬新加坡02
+    port: 31153
+    server: jsyd.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇸🇬新加坡03
+    port: 49767
+    server: dbzf.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇺🇸美国01
+    port: 29654
+    server: iepl.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇺🇸美国02
+    port: 27173
+    server: jsyd.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: 🇺🇸美国03
+    port: 49039
+    server: dbzf.dylj.link
+    type: ss
+    udp: true
+    password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
+    cipher: aes-128-gcm
+  - name: "剩余流量：555 GB\r"
+    type: hysteria2
+    server: yyjp5.benbo789.me
+    port: 52222
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyjp5.benbo789.me
+    skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
+  - name: "套餐到期：2025-03-07\r"
+    type: hysteria2
+    server: yyjp5.benbo789.me
+    port: 52222
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyjp5.benbo789.me
+    skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
+  - name: "JP 日本05「原生IP」\r"
+    type: hysteria2
+    server: yyjp5.benbo789.me
+    port: 52222
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyjp5.benbo789.me
+    skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
+  - name: "JP 日本06「原生IP」\r"
+    type: hysteria2
+    server: yyjp6.benbo789.me
+    port: 52222
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyjp6.benbo789.me
+    skip-cert-verify: false
+    fast-open: false
+    ip-version: dual
+  - name: "JP 日本07「原生IP」\r"
+    type: hysteria2
+    server: yyjp7.benbo789.me
+    port: 52222
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyjp7.benbo789.me
+    skip-cert-verify: false
+    fast-open: false
+    ip-version: dual
+  - name: "JP 日本08「原生IP」\r"
+    type: hysteria2
+    server: yyjp8.benbo789.me
+    port: 52222
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyjp8.benbo789.me
+    skip-cert-verify: false
+    fast-open: false
+    ip-version: dual
+  - name: "DE 德國 03「原生IP」\r"
+    type: hysteria2
+    server: yyde03.benbo789.me
+    port: 8443
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyde03.benbo789.me
+    skip-cert-verify: false
+    fast-open: false
+    ip-version: dual
+  - name: "DE 德國 04「原生IP」\r"
+    type: hysteria2
+    server: yyde04.benbo789.me
+    port: 8443
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyde04.benbo789.me
+    skip-cert-verify: false
+    fast-open: false
+    ip-version: dual
+  - name: "US 美國 03「原生IP」\r"
+    type: hysteria2
+    server: yyus03.benbo789.me
+    port: 38443
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyus03.benbo789.me
+    skip-cert-verify: false
+    fast-open: false
+    ip-version: dual
+  - name: "US 美國 04「原生IP」\r"
+    type: hysteria2
+    server: yyus04.benbo789.me
+    port: 38443
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyus04.benbo789.me
+    skip-cert-verify: false
+    fast-open: false
+    ip-version: dual
+  - name: "US 美國 05「原生IP」\r"
+    type: hysteria2
+    server: yyus05.benbo789.me
+    port: 8443
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    sni: yyus05.benbo789.me
+    skip-cert-verify: false
+    fast-open: false
+    ip-version: dual
   - name: 🇮🇪_IE_爱尔兰
     type: trojan
     server: 54.228.227.213
