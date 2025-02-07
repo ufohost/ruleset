@@ -1,146 +1,182 @@
 proxies:
-  - name: 🇬🇧_GB_英国_1
-    port: 443
-    server: 78.129.140.11
+  - name: 🇮🇸_IS_冰岛
     type: ss
-    udp: true
-    password: CDRR5RckFavHXOhoFtFsDQ
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_1
-    port: 2082
-    server: 64.225.109.206
-    type: vmess
-    network: http
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    http-opts: {}
-    cipher: auto
-    uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    port: 21019
-    server: 219.135.231.205
-    type: trojan
-    udp: true
-    password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-    skip-cert-verify: true
-  - name: 🇮🇳_IN_印度->🇷🇺_RU_俄罗斯
-    port: 80
-    server: 14.102.229.179
-    type: vless
-    network: ws
-    udp: true
-    ws-opts:
-      path: /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048
-      headers:
-        host: Www.speedtest.net.sPeedtest2.sbs.
-    uuid: d5af833f-9be5-4d70-aba2-a66c21d87cec
-  - name: 🇬🇧_GB_英国_2
-    port: 25385
-    server: 5.39.254.196
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: 5.39.254.196
-    cipher: auto
-    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-    alterId: 0
-  - name: 🇩🇰_DK_丹麦
+    server: 37.235.49.152
     port: 989
-    server: 185.186.79.53
-    type: ss
-    udp: true
     password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯
+    type: ss
+    server: 217.30.10.18
+    port: 9025
+    password: XPtzA9sCug3SPR4c
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+    type: ss
+    server: 54.212.56.86
+    port: 443
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    type: ss
+    server: 14.18.253.178
+    port: 8347
+    password: q2kSGp4ayFKB
+    ip-version: dual
+    udp: true
+    cipher: chacha20
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
+    type: ss
+    server: 54.213.141.30
+    port: 443
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_1
+    type: trojan
+    server: 18.157.239.29
+    port: 22222
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    ip-version: dual
+    udp: true
+  - name: 🇩🇪_DE_德国_1
+    type: trojan
+    server: 3.125.195.100
+    port: 22222
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国
+    type: ss
+    server: 14.18.253.178
+    port: 8341
+    password: zWyQvJbQRZaV
+    ip-version: dual
+    udp: true
+    cipher: chacha20
+  - name: 🇬🇧_GB_英国
+    type: trojan
+    server: 18.135.14.252
+    port: 22222
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国_2
+    type: trojan
+    server: 13.39.37.172
+    port: 22222
+    network: tcp
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国_3
+    type: ss
+    server: 35.94.149.165
+    port: 443
+    password: amazonskr05
+    ip-version: dual
+    udp: true
     cipher: aes-256-cfb
   - name: 🇮🇹_IT_意大利
-    port: 44884
-    server: 178.255.222.25
-    type: vless
-    network: tcp
-    udp: true
-    uuid: 51f449e3-c5ad-42e0-bd2e-16f4edcc856e
-  - name: 🇮🇷_IR_伊朗
-    port: 80
-    server: 94.182.150.230
-    type: vmess
-    network: tcp
-    udp: true
-    cipher: auto
-    uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
-    alterId: 0
-  - name: 🇸🇰_SK_斯洛伐克
-    port: 989
-    server: 156.146.40.194
     type: ss
-    udp: true
+    server: 37.143.129.230
+    port: 989
     password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_2
-    port: 2086
-    server: 190.93.245.230
-    type: vmess
-    network: ws
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    type: ss
+    server: qh62onjn.slashdevslashnetslashtun.net
+    port: 17007
+    password: MXNFC7XS62Z7R729
+    ip-version: dual
     udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: shs.xiaoqi666.xyz
-    cipher: auto
-    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-    alterId: 0
-  - name: 🇨🇦_CA_加拿大->🇺🇸_US_美国
-    port: 443
-    server: neutral-magpie.treefrog761.one
-    type: trojan
-    udp: true
-    sni: neutral-magpie.treefrog761.one
-    password: "3763495982449565696"
-    skip-cert-verify: true
-  - name: 🇺🇸_US_美国_3
-    port: 22222
-    server: 13.42.221.30
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-    port: 25230
-    server: cm1.awslcn.info
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cm1.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
+    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_4
-    port: 443
-    server: measured-moth.treefrog761.one
-    type: trojan
-    udp: true
-    sni: measured-moth.treefrog761.one
-    password: "3763495982449565696"
+    type: vmess
+    server: 66.42.86.202
+    port: 8881
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    network: http
+    sni: ''
     skip-cert-verify: true
-  - name: 🇰🇷_KR_韩国
-    port: 989
-    server: 154.223.16.212
-    type: ss
+    http-opts: {}
+    ip-version: dual
     udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇷🇴_RO_罗马尼亚
-    port: 989
-    server: 188.214.36.155
+    alterId: 0
+    cipher: auto
+  - name: 未知_1
     type: ss
+    server: 103.120.178.193
+    port: 51348
+    password: pULZkJUnl5FB4mOQUngUKFtPfohf0cUCpOxqyRD52hy9WuHe
+    ip-version: dual
     udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 🇩🇪_DE_德国_2
+    type: ss
+    server: 134.255.210.49
+    port: 989
     password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
     cipher: aes-256-cfb
+  - name: 未知_2
+    type: trojan
+    server: sunny-jackal.insect388.motorcycles
+    port: 443
+    password: '3774827088566296576'
+    sni: sunny-jackal.insect388.motorcycles
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
+    type: vless
+    server: 185.143.233.5
+    port: 80
+    uuid: b489cc27-6056-48bb-891e-de437658d519
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: nim-f6a8e4b837-sh.apps.ir-central1.arvancaas.ir
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国_5
+    type: ss
+    server: 54.185.251.195
+    port: 443
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_6
+    type: ss
+    server: 54.214.157.34
+    port: 443
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    type: ss
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 17004
+    password: LJSU1P9549K09CVE
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
