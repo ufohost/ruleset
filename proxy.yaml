@@ -6,7 +6,7 @@ proxies:
     udp: true
     password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
     cipher: aes-128-gcm
-  - name: 套餐到期：2025-03-07
+  - name: 套餐到期：2025-03-07_1
     port: 11530
     server: iepl.dylj.link
     type: ss
@@ -160,191 +160,202 @@ proxies:
     udp: true
     password: 0368cf3d-816a-4e3b-b063-2f3bc1e50329
     cipher: aes-128-gcm
-  - name: "剩余流量：555 GB\r"
-    type: hysteria2
-    server: yyjp5.benbo789.me
+  - name: 剩余流量：555 GB
     port: 52222
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    server: yyjp5.benbo789.me
+    type: hysteria2
+    udp: true
     sni: yyjp5.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: true
     fast-open: false
     ip-version: dual
-  - name: "套餐到期：2025-03-07\r"
-    type: hysteria2
-    server: yyjp5.benbo789.me
+  - name: 套餐到期：2025-03-07_2
     port: 52222
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    server: yyjp5.benbo789.me
+    type: hysteria2
+    udp: true
     sni: yyjp5.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: true
     fast-open: false
     ip-version: dual
-  - name: "JP 日本05「原生IP」\r"
-    type: hysteria2
-    server: yyjp5.benbo789.me
+  - name: JP 日本05「原生IP」
     port: 52222
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    server: yyjp5.benbo789.me
+    type: hysteria2
+    udp: true
     sni: yyjp5.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: true
     fast-open: false
     ip-version: dual
-  - name: "JP 日本06「原生IP」\r"
-    type: hysteria2
+  - name: JP 日本06「原生IP」
+    port: 52222
     server: yyjp6.benbo789.me
-    port: 52222
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    type: hysteria2
+    udp: true
     sni: yyjp6.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: false
     fast-open: false
     ip-version: dual
-  - name: "JP 日本07「原生IP」\r"
-    type: hysteria2
+  - name: JP 日本07「原生IP」
+    port: 52222
     server: yyjp7.benbo789.me
-    port: 52222
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    type: hysteria2
+    udp: true
     sni: yyjp7.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: false
     fast-open: false
     ip-version: dual
-  - name: "JP 日本08「原生IP」\r"
-    type: hysteria2
-    server: yyjp8.benbo789.me
+  - name: JP 日本08「原生IP」
     port: 52222
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    server: yyjp8.benbo789.me
+    type: hysteria2
+    udp: true
     sni: yyjp8.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: false
     fast-open: false
     ip-version: dual
-  - name: "DE 德國 03「原生IP」\r"
-    type: hysteria2
+  - name: DE 德國 03「原生IP」
+    port: 8443
     server: yyde03.benbo789.me
-    port: 8443
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    type: hysteria2
+    udp: true
     sni: yyde03.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: false
     fast-open: false
     ip-version: dual
-  - name: "DE 德國 04「原生IP」\r"
-    type: hysteria2
+  - name: DE 德國 04「原生IP」
+    port: 8443
     server: yyde04.benbo789.me
-    port: 8443
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    type: hysteria2
+    udp: true
     sni: yyde04.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: false
     fast-open: false
     ip-version: dual
-  - name: "US 美國 03「原生IP」\r"
-    type: hysteria2
+  - name: US 美國 03「原生IP」
+    port: 38443
     server: yyus03.benbo789.me
-    port: 38443
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    type: hysteria2
+    udp: true
     sni: yyus03.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: false
     fast-open: false
     ip-version: dual
-  - name: "US 美國 04「原生IP」\r"
-    type: hysteria2
-    server: yyus04.benbo789.me
+  - name: US 美國 04「原生IP」
     port: 38443
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    server: yyus04.benbo789.me
+    type: hysteria2
+    udp: true
     sni: yyus04.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: false
     fast-open: false
     ip-version: dual
-  - name: "US 美國 05「原生IP」\r"
-    type: hysteria2
-    server: yyus05.benbo789.me
+  - name: US 美國 05「原生IP」
     port: 8443
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
+    server: yyus05.benbo789.me
+    type: hysteria2
+    udp: true
     sni: yyus05.benbo789.me
+    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
     skip-cert-verify: false
     fast-open: false
     ip-version: dual
   - name: 🇮🇪_IE_爱尔兰
-    type: trojan
-    server: 54.228.227.213
     port: 22222
+    server: 54.228.227.213
+    type: trojan
     network: tcp
-    password: telegram-id-privatevpns
+    udp: true
     sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
     alpn:
       - http/1.1
     ip-version: dual
-    udp: true
   - name: 🇺🇸_US_美国_1
-    type: ss
-    server: 34.211.228.158
     port: 443
+    server: 34.211.228.158
+    type: ss
+    udp: true
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国->🇩🇪_DE_德国
-    type: vmess
-    server: plex.com
     port: 80
-    uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+    server: plex.com
+    type: vmess
     network: ws
+    udp: true
     ws-opts:
       path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
       headers:
         host: telegram-isvvpn.ir
     ip-version: dual
-    udp: true
-    alterId: 0
     cipher: auto
+    uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+    alterId: 0
   - name: 🇺🇸_US_美国->🇨🇳_CN_中国_1
-    type: ss
-    server: 54.213.141.30
     port: 443
+    server: 54.213.141.30
+    type: ss
+    udp: true
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
   - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    type: ss
-    server: qh62onjn.slashdevslashnetslashtun.net
     port: 17007
+    server: qh62onjn.slashdevslashnetslashtun.net
+    type: ss
+    udp: true
     password: MXNFC7XS62Z7R729
     ip-version: dual
-    udp: true
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国->🇨🇳_CN_中国_2
-    type: ss
-    server: 34.221.94.162
     port: 443
+    server: 34.221.94.162
+    type: ss
+    udp: true
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国->🇨🇳_CN_中国_3
-    type: ss
-    server: 54.213.141.30
     port: 443
+    server: 54.213.141.30
+    type: ss
+    udp: true
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
   - name: 🇩🇪_DE_德国
-    type: vless
-    server: 5.75.140.123
     port: 4810
-    uuid: acfb8db7-fbc4-4aac-814d-ef73bd6ce72c
+    server: 5.75.140.123
+    type: vless
     network: tcp
-    ip-version: dual
     udp: true
+    ip-version: dual
+    uuid: acfb8db7-fbc4-4aac-814d-ef73bd6ce72c
   - name: 🇺🇸_US_美国->🇨🇳_CN_中国_4
-    type: ss
-    server: 34.221.94.162
     port: 443
+    server: 34.221.94.162
+    type: ss
+    udp: true
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_2
-    type: ss
-    server: 35.89.15.28
     port: 443
+    server: 35.89.15.28
+    type: ss
+    udp: true
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
