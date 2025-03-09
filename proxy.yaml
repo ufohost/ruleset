@@ -1,111 +1,337 @@
 proxies:
-  - name: 剩余流量：555 GB
-    port: 52222
-    server: yyjp5.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyjp5.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: true
-    fast-open: false
+  - name: "剩余流量：30 GB\r"
+    type: ss
+    server: hk01.ofopp.com
+    port: 10001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
-  - name: 套餐到期：2025-03-07_2
-    port: 52222
-    server: yyjp5.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyjp5.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: true
-    fast-open: false
+    cipher: aes-256-gcm
+  - name: "套餐到期：2025-04-08\r"
+    type: ss
+    server: hk01.ofopp.com
+    port: 10001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
-  - name: JP 日本05「原生IP」
-    port: 52222
-    server: yyjp5.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyjp5.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: true
-    fast-open: false
+    cipher: aes-256-gcm
+  - name: "🇭🇰 香港 01\r"
+    type: ss
+    server: hk01.ofopp.com
+    port: 10001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
-  - name: JP 日本06「原生IP」
-    port: 52222
-    server: yyjp6.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyjp6.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: false
-    fast-open: false
+    cipher: aes-256-gcm
+  - name: "🇭🇰 香港 02\r"
+    type: ss
+    server: hk02.ofopp.com
+    port: 10002
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
-  - name: JP 日本07「原生IP」
-    port: 52222
-    server: yyjp7.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyjp7.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: false
-    fast-open: false
+    cipher: aes-256-gcm
+  - name: "🇭🇰 香港 03\r"
+    type: ss
+    server: hk03.ofopp.com
+    port: 10003
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
-  - name: JP 日本08「原生IP」
-    port: 52222
-    server: yyjp8.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyjp8.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: false
-    fast-open: false
+    cipher: aes-256-gcm
+  - name: "🇭🇰 香港 04\r"
+    type: ss
+    server: hk04.ofopp.com
+    port: 10004
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
-  - name: DE 德國 03「原生IP」
-    port: 8443
-    server: yyde03.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyde03.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: false
-    fast-open: false
+    cipher: aes-256-gcm
+  - name: "🇭🇰 香港 05\r"
+    type: ss
+    server: hk05.ofopp.com
+    port: 10005
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
-  - name: DE 德國 04「原生IP」
-    port: 8443
-    server: yyde04.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyde04.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: false
-    fast-open: false
+    cipher: aes-256-gcm
+  - name: "🇭🇰 香港 06\r"
+    type: ss
+    server: hk06.ofopp.com
+    port: 10006
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
-  - name: US 美國 03「原生IP」
-    port: 38443
-    server: yyus03.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyus03.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: false
-    fast-open: false
+    cipher: aes-256-gcm
+  - name: "🇭🇰 香港 07\r"
+    type: ss
+    server: hk07.ofopp.com
+    port: 10007
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
-  - name: US 美國 04「原生IP」
-    port: 38443
-    server: yyus04.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyus04.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: false
-    fast-open: false
+    cipher: aes-256-gcm
+  - name: "🇭🇰 香港 08\r"
+    type: ss
+    server: hk08.ofopp.com
+    port: 10008
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
-  - name: US 美國 05「原生IP」
-    port: 8443
-    server: yyus05.benbo789.me
-    type: hysteria2
-    udp: true
-    sni: yyus05.benbo789.me
-    password: 39f937ed-b6cf-403f-a61c-668cc5f99d2f
-    skip-cert-verify: false
-    fast-open: false
+    cipher: aes-256-gcm
+  - name: "🇨🇳 台湾 01\r"
+    type: ss
+    server: tw01.ofopp.com
+    port: 14001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
     ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇨🇳 台湾 02\r"
+    type: ss
+    server: tw02.ofopp.com
+    port: 14002
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇨🇳 台湾 03\r"
+    type: ss
+    server: tw03.ofopp.com
+    port: 14003
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇨🇳 台湾 04\r"
+    type: ss
+    server: tw04.ofopp.com
+    port: 14004
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇸🇬 新加坡 01\r"
+    type: ss
+    server: sg01.ofopp.com
+    port: 12001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇸🇬 新加坡 02\r"
+    type: ss
+    server: sg02.ofopp.com
+    port: 12002
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇸🇬 新加坡 03\r"
+    type: ss
+    server: sg03.ofopp.com
+    port: 12003
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇸🇬 新加坡 04\r"
+    type: ss
+    server: sg04.ofopp.com
+    port: 12004
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇸🇬 新加坡 05\r"
+    type: ss
+    server: sg05.ofopp.com
+    port: 12005
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇯🇵 日本 02\r"
+    type: ss
+    server: jp02.ofopp.com
+    port: 11002
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇯🇵 日本 03\r"
+    type: ss
+    server: jp03.ofopp.com
+    port: 11003
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇯🇵 日本 04\r"
+    type: ss
+    server: jp04.ofopp.com
+    port: 11004
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇯🇵 日本 05\r"
+    type: ss
+    server: jp05.ofopp.com
+    port: 11005
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇺🇸 美国 01\r"
+    type: ss
+    server: us01.ofopp.com
+    port: 13001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇺🇸 美国 02\r"
+    type: ss
+    server: us02.ofopp.com
+    port: 13002
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇺🇸 美国 03\r"
+    type: ss
+    server: us03.ofopp.com
+    port: 13003
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇺🇸 美国 04\r"
+    type: ss
+    server: us04.ofopp.com
+    port: 13004
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇺🇸 美国 05\r"
+    type: ss
+    server: us05.ofopp.com
+    port: 13005
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇰🇷 韩国 01\r"
+    type: ss
+    server: kr01.ofopp.com
+    port: 25001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇰🇷 韩国 02\r"
+    type: ss
+    server: kr01.ofopp.com
+    port: 25002
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇵🇭 菲律宾 01\r"
+    type: ss
+    server: ph01.ofopp.com
+    port: 20001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇲🇾 马来西亚 01\r"
+    type: ss
+    server: my01.ofopp.com
+    port: 16001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇲🇾 马来西亚 02\r"
+    type: ss
+    server: my02.ofopp.com
+    port: 16002
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇹🇷 土耳其 01\r"
+    type: ss
+    server: tr01.ofopp.com
+    port: 19001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇹🇭 泰国 01\r"
+    type: ss
+    server: th01.ofopp.com
+    port: 24001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇻🇳 越南 01\r"
+    type: ss
+    server: vn01.ofopp.com
+    port: 21001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇷🇺 俄罗斯 01\r"
+    type: ss
+    server: ru01.ofopp.com
+    port: 22001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇦🇷 阿根廷 01\r"
+    type: ss
+    server: ar01.ofopp.com
+    port: 22001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇬🇧 英国 01\r"
+    type: ss
+    server: gb01.ofopp.com
+    port: 15001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇬🇧 英国 02\r"
+    type: ss
+    server: gb02.ofopp.com
+    port: 15002
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇩🇪 德国 01\r"
+    type: ss
+    server: de01.ofopp.com
+    port: 17001
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
+  - name: "🇩🇪 德国 02\r"
+    type: ss
+    server: de02.ofopp.com
+    port: 17002
+    tls: false
+    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    ip-version: dual
+    cipher: aes-256-gcm
