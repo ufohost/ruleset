@@ -1,554 +1,119 @@
 proxies:
-proxies:
   - name: 🇺🇸_US_美国_1
-    type: ss
-    server: 54.202.63.169
+    type: trojan
+    server: 104.21.21.226
     port: 443
-    password: amazonskr05
+    network: ws
+    password: 6040a753-e35b-4384-8713-96f3c639b621
+    sni: uK803.890689.Xyz
+    ws-opts:
+      path: /WxWOWO1YA9bs2HOmaeWimvT3
     ip-version: dual
     udp: true
-    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_2
     type: vless
-    server: 151.101.2.133
-    port: 80
-    uuid: f61c5aaf-b626-4cd3-8892-d46071964ddc
+    server: 104.26.15.85
+    port: 8080
+    uuid: f4f22421-23e9-4532-b3c0-0005b44e606d
     network: ws
     ws-opts:
-      path: /TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray?ed=2048
       headers:
-        host: namehmain.com
+        host: PG.xu1C4F9uxY.ZuLAiR.ORg.
     ip-version: dual
     udp: true
   - name: 🇺🇸_US_美国_3
-    type: vless
-    server: 185.143.233.5
-    port: 80
-    uuid: c9425aa8-5818-4272-82ca-e3042982c04c
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: hhhwww-d43e4af0d5-jbj.apps.ir-central1.arvancaas.ir
-    ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国_4
-    type: ss
-    server: 54.184.74.88
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_5
-    type: vless
-    server: 151.101.194.133
-    port: 80
-    uuid: f61c5aaf-b626-4cd3-8892-d46071964ddc
-    network: ws
-    ws-opts:
-      path: /TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray,TELEGRAM-@mainv2-ray?ed=2048
-      headers:
-        host: namehmain.com
-    ip-version: dual
-    udp: true
-  - name: 🇱🇹_LT_立陶宛->🇺🇸_US_美国
-    type: vless
-    server: 86.38.214.30
-    port: 8080
-    uuid: 0f9f0500-01a2-49a6-b67b-d1b38913ba2c
-    network: ws
-    ws-opts:
-      headers:
-        host: sNaPp.MaStErSrV.ir.
-    ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国_6
-    type: ss
-    server: 35.91.216.191
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_7
     type: trojan
-    server: 107.172.132.248
-    port: 443
-    network: ws
-    password: 85950277-f447-48f0-9ead-aaf6d5ff3cad
-    sni: huangshang9.zone.id
-    ws-opts:
-      path: /I4L1BP2DQVYmx5NYQ76MGGq
-    ip-version: dual
-    udp: true
-  - name: 🇸🇰_SK_斯洛伐克
-    type: ss
-    server: 156.146.40.194
-    port: 989
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_8
-    type: ss
-    server: 35.86.111.233
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_9
-    type: vmess
-    server: 104.19.173.68
-    port: 80
-    uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-    network: ws
-    ws-opts:
-      path: /lxc.html?ed=2048
-      headers:
-        host: 511970050943032025032010340544471.mglxc.chibaba.filegear-sg.me
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
-    type: ss
-    server: 194.5.215.59
-    port: 8080
-    password: 14fFPrbezE3HDZzsMOr6
-    ip-version: dual
-    udp: true
-    cipher: rc4-md5
-  - name: 🇬🇧_GB_英国
-    type: trojan
-    server: 3.9.150.130
-    port: 22222
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国_10
-    type: ss
-    server: 13.215.250.172
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_11
-    type: ss
-    server: 34.210.253.95
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-    type: vless
-    server: 46.254.93.124
-    port: 8080
-    uuid: 0f9f0500-01a2-49a6-b67b-d1b38913ba2c
-    network: ws
-    ws-opts:
-      headers:
-        host: sNaPp.MaStErSrV.ir.
-    ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国_12
-    type: ss
-    server: 184.170.241.194
-    port: 443
-    password: shadowsocks
-    ip-version: dual
-    udp: true
-    cipher: aes-128-cfb
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
-    type: trojan
-    server: 161.35.34.48
-    port: 443
-    network: tcp
-    password: 2cba4104747d49d18319e5ade1b93ab5
-    sni: yourjobnavigator.online
+    server: www.hk-jd.top
+    port: 10021
+    password: b19c4375-d847-4c40-9824-4767c88b5f38
+    sni: www.hk-jd.top
     skip-cert-verify: true
     ip-version: dual
     udp: true
-  - name: 🇺🇸_US_美国_13
-    type: trojan
-    server: 192.3.130.103
-    port: 443
-    network: grpc
-    password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-    sni: us10-01zl.huangshang.filegear-sg.me
-    grpc-opts:
-      grpc-service-name: i8oL7PsxV002zYFTmiIeg
-    ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国_14
+  - name: 🇺🇸_US_美国->🇨🇷_CR_哥斯达黎加
     type: vmess
-    server: 185.122.164.45
-    port: 2086
-    uuid: 0043683d-e195-40f0-9026-05a1551a8046
+    server: 104.26.2.223
+    port: 80
+    uuid: be9ac665-07b8-45b7-b99e-8b913b50da99
     network: ws
-    sni: ''
-    fingerprint: ''
     ws-opts:
-      path: 0043683d-e195-40f0-9026-05a1551a8046-vm
+      path: /s15.html
       headers:
-        host: www.bing.com
+        host: 476890898548582025040715174894088.s15.chibaba.filegear-sg.me
     ip-version: dual
     udp: true
     alterId: 0
     cipher: auto
-  - name: 🇬🇧_GB_英国->🇫🇮_FI_芬兰
-    type: ss
-    server: 62.100.205.48
-    port: 989
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_15
-    type: ss
-    server: 35.87.37.159
+  - name: 🇨🇷_CR_哥斯达黎加
+    type: trojan
+    server: 144.22.250.122
     port: 443
-    password: amazonskr05
+    network: ws
+    password: 02926f9e-153a-42c8-8ecd-8fade7009ad1
+    sni: golinkwuxian.top
+    skip-cert-verify: true
+    ws-opts:
+      path: /apple
+      headers:
+        host: 8888.golinkwuxian.top
     ip-version: dual
     udp: true
-    cipher: aes-256-cfb
-  - name: "剩余流量：30 GB\r"
-    type: ss
-    server: hk01.ofopp.com
-    port: 10001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+  - name: 🇩🇪_DE_德国
+    type: vless
+    server: tv2rayrr.set7.site
+    port: 34311
+    uuid: 003ab005-1b05-4311-a23b-c0d898c264ca
+    network: tls
+    servername: ''
+    flow: '-udp443'
+    client-fingerprint: ''
     ip-version: dual
-    cipher: aes-256-gcm
-  - name: "套餐到期：2025-04-08\r"
-    type: ss
-    server: hk01.ofopp.com
-    port: 10001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    udp: true
+  - name: 🇺🇸_US_美国_4
+    type: vless
+    server: 172.67.73.163
+    port: 8080
+    uuid: dce4535b-5833-4d62-97e7-3d9d4ba6bd4c
+    network: ws
+    ws-opts:
+      headers:
+        host: 0j.Gr02P5L88B.zUlaIR.oRG.
     ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇭🇰 香港 01\r"
-    type: ss
-    server: hk01.ofopp.com
-    port: 10001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    udp: true
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+    type: vmess
+    server: cm1.awslcn.info
+    port: 25230
+    uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+    network: ws
+    sni: ''
+    ws-opts:
+      path: /
+      headers:
+        host: cm1.awslcn.info
     ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇭🇰 香港 02\r"
-    type: ss
-    server: hk02.ofopp.com
-    port: 10002
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇮🇳_IN_印度
+    type: vless
+    server: 14.102.228.75
+    port: 80
+    uuid: b49d8a13-12f6-4613-bb0d-3e2f6244f29c
+    network: ws
+    ws-opts:
+      path: /vless/
+      headers:
+        host: ov-canada1.09vpn.com
     ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇭🇰 香港 03\r"
-    type: ss
-    server: hk03.ofopp.com
-    port: 10003
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
+    udp: true
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+    type: vmess
+    server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
+    port: 5228
+    uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+    network: tcp
     ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇭🇰 香港 04\r"
-    type: ss
-    server: hk04.ofopp.com
-    port: 10004
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇭🇰 香港 05\r"
-    type: ss
-    server: hk05.ofopp.com
-    port: 10005
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇭🇰 香港 06\r"
-    type: ss
-    server: hk06.ofopp.com
-    port: 10006
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇭🇰 香港 07\r"
-    type: ss
-    server: hk07.ofopp.com
-    port: 10007
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇭🇰 香港 08\r"
-    type: ss
-    server: hk08.ofopp.com
-    port: 10008
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇨🇳 台湾 01\r"
-    type: ss
-    server: tw01.ofopp.com
-    port: 14001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇨🇳 台湾 02\r"
-    type: ss
-    server: tw02.ofopp.com
-    port: 14002
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇨🇳 台湾 03\r"
-    type: ss
-    server: tw03.ofopp.com
-    port: 14003
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇨🇳 台湾 04\r"
-    type: ss
-    server: tw04.ofopp.com
-    port: 14004
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇸🇬 新加坡 01\r"
-    type: ss
-    server: sg01.ofopp.com
-    port: 12001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇸🇬 新加坡 02\r"
-    type: ss
-    server: sg02.ofopp.com
-    port: 12002
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇸🇬 新加坡 03\r"
-    type: ss
-    server: sg03.ofopp.com
-    port: 12003
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇸🇬 新加坡 04\r"
-    type: ss
-    server: sg04.ofopp.com
-    port: 12004
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇸🇬 新加坡 05\r"
-    type: ss
-    server: sg05.ofopp.com
-    port: 12005
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇯🇵 日本 02\r"
-    type: ss
-    server: jp02.ofopp.com
-    port: 11002
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇯🇵 日本 03\r"
-    type: ss
-    server: jp03.ofopp.com
-    port: 11003
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇯🇵 日本 04\r"
-    type: ss
-    server: jp04.ofopp.com
-    port: 11004
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇯🇵 日本 05\r"
-    type: ss
-    server: jp05.ofopp.com
-    port: 11005
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇺🇸 美国 01\r"
-    type: ss
-    server: us01.ofopp.com
-    port: 13001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇺🇸 美国 02\r"
-    type: ss
-    server: us02.ofopp.com
-    port: 13002
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇺🇸 美国 03\r"
-    type: ss
-    server: us03.ofopp.com
-    port: 13003
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇺🇸 美国 04\r"
-    type: ss
-    server: us04.ofopp.com
-    port: 13004
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇺🇸 美国 05\r"
-    type: ss
-    server: us05.ofopp.com
-    port: 13005
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇰🇷 韩国 01\r"
-    type: ss
-    server: kr01.ofopp.com
-    port: 25001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇰🇷 韩国 02\r"
-    type: ss
-    server: kr01.ofopp.com
-    port: 25002
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇵🇭 菲律宾 01\r"
-    type: ss
-    server: ph01.ofopp.com
-    port: 20001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇲🇾 马来西亚 01\r"
-    type: ss
-    server: my01.ofopp.com
-    port: 16001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇲🇾 马来西亚 02\r"
-    type: ss
-    server: my02.ofopp.com
-    port: 16002
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇹🇷 土耳其 01\r"
-    type: ss
-    server: tr01.ofopp.com
-    port: 19001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇹🇭 泰国 01\r"
-    type: ss
-    server: th01.ofopp.com
-    port: 24001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇻🇳 越南 01\r"
-    type: ss
-    server: vn01.ofopp.com
-    port: 21001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇷🇺 俄罗斯 01\r"
-    type: ss
-    server: ru01.ofopp.com
-    port: 22001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇦🇷 阿根廷 01\r"
-    type: ss
-    server: ar01.ofopp.com
-    port: 22001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇬🇧 英国 01\r"
-    type: ss
-    server: gb01.ofopp.com
-    port: 15001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇬🇧 英国 02\r"
-    type: ss
-    server: gb02.ofopp.com
-    port: 15002
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇩🇪 德国 01\r"
-    type: ss
-    server: de01.ofopp.com
-    port: 17001
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
-  - name: "🇩🇪 德国 02\r"
-    type: ss
-    server: de02.ofopp.com
-    port: 17002
-    tls: false
-    password: cf422a40-fd15-4ae9-8c2a-8e04e2a7d09b
-    ip-version: dual
-    cipher: aes-256-gcm
+    udp: true
+    alterId: 0
+    cipher: auto
