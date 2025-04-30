@@ -1,4 +1,243 @@
 proxies:
+  - name: 🇺🇸_US_美国_1
+    type: vless
+    server: tgju.org
+    port: 8080
+    uuid: 690ab90e-3f21-422b-8cb1-bc9845c7af1e
+    network: ws
+    servername: IO.IhJtq0hklC.ZULAiR.OrG.
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: IO.IhJtq0hklC.ZULAiR.OrG.
+    ip-version: dual
+    udp: true
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+    type: trojan
+    server: 45.146.232.172
+    port: 43499
+    password: da26f571-6dea-42ff-a90e-8d72561f92b0
+    sni: q08m.vgraxiw73s.hasyaf.cn
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    type: vmess
+    server: v8.heduian.link
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: baidu.com
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    type: vmess
+    server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
+    port: 5229
+    uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    type: vmess
+    server: v5.heduian.link
+    port: 30805
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    sni: ''
+    skip-cert-verify: true
+    ws-opts:
+      path: /oooo
+      headers:
+        host: ocbc.com
+    ip-version: dual
+    udp: true
+    alterId: 2
+    cipher: auto
+  - name: 🇺🇸_US_美国_2
+    type: trojan
+    server: 172.67.204.177
+    port: 443
+    network: ws
+    password: 075b9690-f1cc-4d0c-aa1e-f80f07f09815
+    sni: 4o.191292.xyz
+    ws-opts:
+      path: /w8oHMEEc9tWBZ57XYkE
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_4
+    type: vmess
+    server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+    port: 5228
+    uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇳🇱_NL_荷兰->🇨🇳_CN_中国
+    type: trojan
+    server: 45.146.232.171
+    port: 46927
+    password: bf4604d3-39e5-4760-aa7a-b78100cae482
+    sni: q08m.vgraxiw73s.hasyaf.cn
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
+    type: vmess
+    server: 104a1dcf-sutj40-svgpxu-y2gs.cu.plebai.net
+    port: 5228
+    uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇳🇱_NL_荷兰->🇦🇺_AU_澳大利亚
+    type: trojan
+    server: 45.146.232.171
+    port: 34017
+    password: 07381e41-41fb-484d-9dc7-37d5a4b566bd
+    sni: q08m.vgraxiw73s.hasyaf.cn
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_5
+    type: vmess
+    server: 6a483e32-svfr40-t28b6o-ef48.cu.plebai.net
+    port: 5228
+    uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
+    type: vmess
+    server: 60077de0-svlb40-t28b6o-ef48.cu.plebai.net
+    port: 5228
+    uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+    type: trojan
+    server: 45.146.232.171
+    port: 34014
+    network: tcp
+    password: abf931d0-5be1-440c-802f-a66bcb850139
+    sni: q08m.vgraxiw73s.hasyaf.cn
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: 🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯
+    type: trojan
+    server: 45.146.232.171
+    port: 43586
+    password: e7793c4f-2885-475c-8046-26e660c46467
+    sni: q08m.vgraxiw73s.hasyaf.cn
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🇫🇷_FR_法国
+    type: vmess
+    server: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
+    port: 17235
+    uuid: 18c0664c-74f1-11ee-b51e-f23c9164ca5d
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_6
+    type: vmess
+    server: c6147365-svjgg0-t28b6o-ef48.cu.plebai.net
+    port: 5228
+    uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_3
+    type: trojan
+    server: 45.146.232.171
+    port: 43592
+    password: 51a668c6-d1bb-4e7e-aca3-125349f779fd
+    sni: q08m.vgraxiw73s.hasyaf.cn
+    skip-cert-verify: false
+    ip-version: dual
+    udp: true
+  - name: 🇩🇪_DE_德国->🇺🇸_US_美国
+    type: ss
+    server: 193.108.119.230
+    port: 8080
+    password: 14fFPrbezE3HDZzsMOr6
+    ip-version: dual
+    udp: true
+    cipher: rc4-md5
+  - name: 🇨🇳_CN_中国
+    type: vmess
+    server: 1449f183-svhls0-t28b6o-ef48.cu.plebai.net
+    port: 5228
+    uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇺🇸_US_美国_3
+    type: trojan
+    server: 104.21.69.50
+    port: 443
+    network: ws
+    password: 075b9690-f1cc-4d0c-aa1e-f80f07f09815
+    sni: 4o.191292.xyz
+    ws-opts:
+      path: /w8oHMEEc9tWBZ57XYkE
+    ip-version: dual
+    udp: true
+  - name: 🇨🇳_CN_中国->🏳️_unKnow_未知
+    type: vmess
+    server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
+    port: 5228
+    uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇺🇸_US_美国_4
+    type: vless
+    server: 104.19.54.50
+    port: 8080
+    uuid: d60a88a3-9bda-4a8f-9a93-f184e36c1705
+    network: ws
+    ws-opts:
+      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
+      headers:
+        host: www.speedtest.net.www.zula.ir.cloudflare.com.www.parsvds.ir.svgspeedtest.net.
+    ip-version: dual
+    udp: true
+  - name: 🇺🇸_US_美国_5
+    type: vless
+    server: 172.67.73.163
+    port: 8080
+    uuid: 51fda508-20aa-419e-b4c3-3a6202411412
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 18.6na7PY43IT.zuLaiR.Org.
+    ip-version: dual
+    udp: true
   - name: 🇨🇳_CN_中国
     type: ss
     server: 62.60.231.81
