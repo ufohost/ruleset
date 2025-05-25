@@ -8,3 +8,4 @@ IP-CIDR,79.137.98.2/32,no-resolve
 
 # 域名后缀匹配
 # DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,7pzzv.us
