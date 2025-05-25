@@ -1,1 +1,4 @@
-https://sub.bestbestbest.sbs/subbest/mi/5ca3443b832297ab6d54102084d03d94
+proxy-providers:
+  miyun:
+    type: http
+    url: "https://sub.bestbestbest.sbs/subbest/mi/5ca3443b832297ab6d54102084d03d94"
