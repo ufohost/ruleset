@@ -1,7 +1,4 @@
 proxy-providers:
-  Host1:
+  Airport03:
     type: http
     url: "https://wanmeiwl2.xyz/gywl/4ba79c6d518bd1a3ebb0625cfe942a94"
-  Host02:
-    type: http
-    url: "https://sufo.xueshan.shop/s/15a1d59c467aaf387c773e700d23b883"
