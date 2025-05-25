@@ -1,4 +1,8 @@
 proxy-providers:
-  miyun:
+  Host1:
     type: http
     url: "https://sub.bestbestbest.sbs/subbest/mi/5ca3443b832297ab6d54102084d03d94"
+  Host02:
+    type: http
+    url: "https://sufo.xueshan.shop/s/15a1d59c467aaf387c773e700d23b883"
+    
