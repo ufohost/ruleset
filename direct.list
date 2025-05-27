@@ -7,6 +7,7 @@ DOMAIN-KEYWORD,har01d
 DOMAIN-KEYWORD,lanzou
 
 # 域名后缀匹配
+DOMAIN-SUFFIX,2345.com
 DOMAIN-SUFFIX,51.la
 DOMAIN-SUFFIX,7moor-fs1.com
 DOMAIN-SUFFIX,stormforge.gg
