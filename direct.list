@@ -5,7 +5,6 @@ DOMAIN-KEYWORD,mirror
 DOMAIN-KEYWORD,ghgo
 DOMAIN-KEYWORD,har01d
 DOMAIN-KEYWORD,lanzou
-DOMAIN-KEYWORD,kaoshi
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,bmmmd.com
@@ -22,6 +21,7 @@ DOMAIN-SUFFIX,54lee.com
 DOMAIN-SUFFIX,iopq.net
 DOMAIN-SUFFIX,anywlan.com
 DOMAIN-SUFFIX,guangyusoft.com
+DOMAIN-SUFFIX,kaoshixing.com
 
 # Windows
 DOMAIN-SUFFIX,time.windows.com
